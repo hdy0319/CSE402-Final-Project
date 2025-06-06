@@ -164,6 +164,7 @@ class BERTModel(nn.Module):
 class BERTForPreTraining(nn.Module):
     def __init__(self, config: TinyBERTConfig):
         super().__init__()
+        self.config = config  # BERTModel의 config를 사용
         self.bert = BERTModel(config)
         self.mlm_dense = nn.Linear(config.hidden_size, config.hidden_size)
         self.activation = nn.GELU()
