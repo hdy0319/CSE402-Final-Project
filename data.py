@@ -28,7 +28,7 @@ class PretrainingDataset(Dataset):
 
         if use_hf:
             # 위키피디아 데이터 로드 및 샘플링
-            ds = load_dataset("wikipedia", hf_config, split="train")
+            ds = load_dataset("wikipedia", hf_config, split="train", trust_remote_code=True)
             ds = ds.shuffle(seed=seed).select(range(num_samples))
             self.texts = ds["text"]
         else:
