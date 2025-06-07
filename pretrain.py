@@ -112,7 +112,7 @@ def main():
         print(f"Epoch {epoch} 완료, 평균 MLM Loss: {avg_loss:.4f}")
 
         # 체크포인트 저장 (모델+옵티마이저 상태 포함)
-        ckpt_path = os.path.join(args.output_dir, f"pretrain_epoch{epoch}.pt")
+        ckpt_path = os.path.join(args.output_dir, f"ckpts/pretrain_epoch{epoch}.pt")
         torch.save({
             'epoch': epoch,
             'model_state': model.state_dict(),
