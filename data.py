@@ -27,8 +27,13 @@ class PretrainingDataset(Dataset):
         self.mlm_probability = mlm_probability
 
         if use_hf:
-            # 위키피디아 데이터 로드 및 샘플링
-            ds = load_dataset("wikipedia", hf_config, split="train", trust_remote_code=True)
+            ds = load_dataset(
+                "wikipedia",
+                hf_config,
+                split="train",
+                trust_remote_code=True,
+                keep_in_memory=True       # ← Arrow 파일을 mmap이 아니라 메모리에 통째로 올립니다.
+            )
             ds = ds.shuffle(seed=seed).select(range(num_samples))
             self.texts = ds["text"]
         else:
