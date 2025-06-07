@@ -21,11 +21,12 @@ def parse_args():
         "--hf_config", type=str, default="20220301.en",
         help="HF Wikipedia dataset config"
     )
-    parser.add_argument(
-        "--num_samples", type=int, default=10000,
-        help="HF 데이터에서 샘플할 문장 수"
-    )
+    parser.add_argument("--num_samples", type=int, default=10000, help="HF 데이터에서 샘플할 문장 수")
     parser.add_argument("--seed", type=int, default=42, help="샘플링 시드")
+    parser.add_argument(
+        "--resume_from", type=str, default=None,
+        help="이어 학습할 체크포인트 파일 경로 (예: pretrain_epoch3.pt)"
+    )
     return parser.parse_args()
 
 
@@ -34,11 +35,11 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # 1) 토크나이저 로드
+    # 1) 토크나이저 설정
     tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
     tokenizer.save_pretrained(args.output_dir)
 
-    # 2) 데이터셋/데이터로더 준비 (HF Wikipedia 사용)
+    # 2) 데이터셋/데이터로더 준비
     train_dataset = PretrainingDataset(
         tokenizer=tokenizer,
         max_len=args.max_len,
@@ -57,7 +58,7 @@ def main():
         pin_memory=True
     )
 
-    # 3) 모델 설정
+    # 3) 모델 및 옵티마이저 설정
     config = TinyBERTConfig(
         vocab_size=tokenizer.vocab_size,
         hidden_size=256,
@@ -71,9 +72,26 @@ def main():
     model = BERTForPreTraining(config).to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
 
+    # 체크포인트에서 이어 학습
+    start_epoch = 1
+    if args.resume_from:
+        ckpt_path = args.resume_from
+        if os.path.isfile(ckpt_path):
+            checkpoint = torch.load(ckpt_path, map_location=device)
+            # 이전 저장 형식에 따라 key 나누기
+            if isinstance(checkpoint, dict) and 'model_state' in checkpoint:
+                model.load_state_dict(checkpoint['model_state'])
+                optimizer.load_state_dict(checkpoint['optimizer_state'])
+                start_epoch = checkpoint.get('epoch', 1) + 1
+            else:
+                model.load_state_dict(checkpoint)
+            print(f"Checkpoint '{ckpt_path}' 로드, epoch {start_epoch}부터 이어서 학습")
+        else:
+            print(f"Resume용 체크포인트를 찾을 수 없습니다: {ckpt_path}")
+
     # 4) 학습 루프
     model.train()
-    for epoch in range(1, args.epochs + 1):
+    for epoch in range(start_epoch, args.epochs + 1):
         total_loss = 0.0
         for step, batch in enumerate(train_loader, 1):
             input_ids = batch["input_ids"].to(device)
@@ -93,9 +111,13 @@ def main():
         avg_loss = total_loss / len(train_loader)
         print(f"Epoch {epoch} 완료, 평균 MLM Loss: {avg_loss:.4f}")
 
-        # 체크포인트 저장
+        # 체크포인트 저장 (모델+옵티마이저 상태 포함)
         ckpt_path = os.path.join(args.output_dir, f"pretrain_epoch{epoch}.pt")
-        torch.save(model.state_dict(), ckpt_path)
+        torch.save({
+            'epoch': epoch,
+            'model_state': model.state_dict(),
+            'optimizer_state': optimizer.state_dict()
+        }, ckpt_path)
         print(f"모델 체크포인트 저장: {ckpt_path}")
 
     # 최종 모델 저장
