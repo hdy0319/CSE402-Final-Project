@@ -27,23 +27,28 @@ class PretrainingDataset(Dataset):
         self.mlm_probability = mlm_probability
 
         if use_hf:
+            # 전체 데이터셋 로드 (Memory-map 방식)
             ds = load_dataset(
                 "wikipedia",
                 hf_config,
                 split="train",
                 trust_remote_code=True,
-                keep_in_memory=True       # ← Arrow 파일을 mmap이 아니라 메모리에 통째로 올립니다.
+                keep_in_memory=False  # 메모리 맵으로 로드
             )
-            ds = ds.shuffle(seed=seed).select(range(num_samples))
-            self.texts = ds["text"]
+            total = len(ds)
+            rng = random.Random(seed)
+            # 전체 인덱스 중에서 무작위 샘플링
+            self.indices = rng.sample(range(total), num_samples)
+            self.dataset = ds
         else:
             raise ValueError("use_hf=False인 경우는 아직 지원하지 않습니다. 파일 기반 로드는 별도 구현 필요합니다.")
 
     def __len__(self):
-        return len(self.texts)
+        return len(self.indices)
 
     def __getitem__(self, idx):
-        text = self.texts[idx]
+        real_idx = self.indices[idx]
+        text = self.dataset[real_idx]["text"]
         encoding = self.tokenizer(
             text,
             add_special_tokens=True,
@@ -77,7 +82,7 @@ class PretrainingDataset(Dataset):
 
         # 80% [MASK]
         indices_replaced = torch.bernoulli(torch.full(labels.shape, 0.8)).bool() & masked_indices
-        inputs[indices_replaced] = self.tokenizer.convert_tokens_to_ids(self.tokenizer.mask_token)
+        inputs[indices_replaced] = self.tokenizer.mask_token_id
 
         # 10% random
         indices_random = (
@@ -89,6 +94,7 @@ class PretrainingDataset(Dataset):
         inputs[indices_random] = random_words[indices_random]
 
         return inputs, labels
+
 
 class FinetuningDataset(Dataset):
     """
