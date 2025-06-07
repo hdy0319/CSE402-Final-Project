@@ -12,7 +12,9 @@ from torch.nn.utils import clip_grad_norm_
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Tiny-BERT Fine-tuning with Huggingface Pretrained for Sentiment Classification")
+    parser = argparse.ArgumentParser(
+        description="Tiny-BERT Fine-tuning with Huggingface Pretrained for Sentiment Classification"
+    )
     parser.add_argument(
         "--model_name_or_path",
         type=str,
@@ -20,15 +22,9 @@ def parse_args():
         help="Huggingface pretrained model id or local path (e.g. prajjwal1/bert-mini)",
     )
     parser.add_argument(
-        "--train_file", type=str, required=True,
-        help="감정분류 학습용 CSV 파일 (columns: text, label)",
-    )
-    parser.add_argument(
-        "--val_file", type=str, required=True,
-        help="감정분류 검증용 CSV 파일 (columns: text, label)",
-    )
-    parser.add_argument(
-        "--output_dir", type=str, required=True,
+        "--output_dir",
+        type=str,
+        required=True,
         help="파인튜닝된 모델 저장 디렉토리",
     )
     parser.add_argument("--epochs", type=int, default=3, help="에폭 수")
@@ -37,7 +33,6 @@ def parse_args():
     parser.add_argument("--max_len", type=int, default=128, help="최대 토큰 길이")
     parser.add_argument("--num_labels", type=int, default=2, help="레이블 수")
     return parser.parse_args()
-
 
 def main():
     args = parse_args()

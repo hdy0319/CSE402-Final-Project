@@ -18,8 +18,8 @@ class PretrainingDataset(Dataset):
         mlm_probability: float = 0.15,
         use_hf: bool = True,
         hf_config: str = "20220301.en",
-        num_samples: int = 10000,
-        seed: int = 42,
+        num_samples: int = 50000,
+        seed: int = 20231424,
     ):
         super().__init__()
         self.tokenizer = tokenizer
