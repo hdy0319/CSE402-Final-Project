@@ -53,6 +53,7 @@ def main():
     print("✅ pretrain된 encoder 가중치 로드 완료")
     print("Model vocab size:", custom_cfg.vocab_size)
     print("Embedding weight shape:", model.bert.word_embeddings.weight.shape)
+    model.resize_token_embeddings(len(tokenizer))
 
     if args.dataset_name:
         raw_ds = load_dataset(args.dataset_name, args.dataset_config_name)

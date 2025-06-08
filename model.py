@@ -9,7 +9,7 @@ import torch.nn.functional as F
 class TinyBERTConfig:
     def __init__(
         self,
-        vocab_size: int,
+        vocab_size: int = 30522,
         hidden_size: int = 256,
         num_hidden_layers: int = 4,
         num_attention_heads: int = 4,
