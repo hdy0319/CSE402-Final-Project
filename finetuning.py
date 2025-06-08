@@ -51,10 +51,10 @@ def main():
     enc_state = {k.replace("bert.", ""): v for k, v in state_dict.items() if k.startswith("bert.")}
     model.bert.load_state_dict(enc_state, strict=False)
     print("✅ pretrain된 encoder 가중치 로드 완료")
+    print("Model vocab size:", custom_cfg.vocab_size)
+    print("Embedding weight shape:", model.bert.word_embeddings.weight.shape)
 
     if args.dataset_name:
-        print("Model vocab size:", model.config.vocab_size)
-        print("Embedding weight shape:", model.bert.embeddings.word_embeddings.weight.shape)
         raw_ds = load_dataset(args.dataset_name, args.dataset_config_name)
         def preprocess(ex):
             txt = ex.get("text") or ex.get("sentence") or ""
