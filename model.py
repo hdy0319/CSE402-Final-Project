@@ -114,7 +114,7 @@ class BERTModel(nn.Module):
         self.config = config
 
         # Token Embeddings
-        self.word_embeddings = nn.Embedding(config.vocab_size, config.hidden_size)
+        self.word_embeddings = nn.Embedding(config.vocab_size + 1, config.hidden_size)
         # Position Embeddings
         self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)
         # Token_type Embeddings (segment)
