@@ -73,19 +73,8 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # 1) Huggingface config/tokenizer 및 custom TinyBERT 설정
-    hf_cfg = BertConfig.from_pretrained(args.model_name_or_path)
     tokenizer = BertTokenizerFast.from_pretrained(args.model_name_or_path)
-    custom_cfg = TinyBERTConfig(
-        vocab_size=hf_cfg.vocab_size,
-        hidden_size=hf_cfg.hidden_size,
-        num_hidden_layers=hf_cfg.num_hidden_layers,
-        num_attention_heads=hf_cfg.num_attention_heads,
-        intermediate_size=hf_cfg.intermediate_size,
-        max_position_embeddings=hf_cfg.max_position_embeddings,
-        hidden_dropout_prob=hf_cfg.hidden_dropout_prob,
-        attention_probs_dropout_prob=hf_cfg.attention_probs_dropout_prob,
-    )
+    custom_cfg = TinyBERTConfig(vocab_size=tokenizer.vocab_size,)
     model = BERTForSequenceClassification(custom_cfg, num_labels=args.num_labels).to(device)
 
     # 2) pretrained encoder weight 로드
