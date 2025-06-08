@@ -205,6 +205,7 @@ class BERTForSequenceClassification(nn.Module):
     def __init__(self, config: TinyBERTConfig, num_labels: int):
         super().__init__()
         self.bert = BERTModel(config)
+        self.config = config
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, num_labels)
 
