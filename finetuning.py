@@ -54,6 +54,8 @@ def main():
 
     if args.dataset_name:
         raw_ds = load_dataset(args.dataset_name, args.dataset_config_name)
+        print("Model vocab size:", model.config.vocab_size)
+        print("Embedding weight shape:", model.bert.embeddings.word_embeddings.weight.shape)
         def preprocess(ex):
             txt = ex.get("text") or ex.get("sentence") or ""
             tok = tokenizer(
