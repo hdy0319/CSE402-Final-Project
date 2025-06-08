@@ -78,8 +78,8 @@ def main():
     model = BERTForSequenceClassification(custom_cfg, num_labels=args.num_labels).to(device)
 
     # 2) pretrained encoder weight 로드
-    hf_model = BertModel.from_pretrained(args.model_name_or_path, config=hf_cfg)
-    encoder_state = {k.replace("bert.", ""): v for k, v in hf_model.state_dict().items()}
+    pretrained_model = BertModel.from_pretrained(args.model_name_or_path, config=custom_cfg)
+    encoder_state = {k.replace("bert.", ""): v for k, v in pretrained_model.state_dict().items()}
     model.bert.load_state_dict(encoder_state, strict=False)
     print("프리트레인된 encoder 가중치 로드 완료")
 
