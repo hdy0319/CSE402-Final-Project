@@ -55,7 +55,7 @@ def main():
     if args.dataset_name:
         raw_ds = load_dataset(args.dataset_name, args.dataset_config_name)
         def preprocess(ex):
-            txt = ex.get("sentence", ex.get("text"))
+            txt = ex.get("text") or ex.get("sentence") or ""
             tok = tokenizer(
                 txt,
                 truncation=True,
