@@ -1,0 +1,1242 @@
+Checkpoint './tinybert_out/ckpts/pretrain_epoch68.pt' 로드, epoch 1부터 이어서 학습
+[Epoch 1 | Step 100/1562] MLM Loss: 3.0823
+[Epoch 1 | Step 200/1562] MLM Loss: 2.6539
+[Epoch 1 | Step 300/1562] MLM Loss: 3.5102
+[Epoch 1 | Step 400/1562] MLM Loss: 3.0448
+[Epoch 1 | Step 500/1562] MLM Loss: 2.9370
+[Epoch 1 | Step 600/1562] MLM Loss: 2.8686
+[Epoch 1 | Step 700/1562] MLM Loss: 3.2792
+[Epoch 1 | Step 800/1562] MLM Loss: 2.8501
+[Epoch 1 | Step 900/1562] MLM Loss: 2.6348
+[Epoch 1 | Step 1000/1562] MLM Loss: 3.0825
+[Epoch 1 | Step 1100/1562] MLM Loss: 3.0094
+[Epoch 1 | Step 1200/1562] MLM Loss: 2.9406
+[Epoch 1 | Step 1300/1562] MLM Loss: 2.8214
+[Epoch 1 | Step 1400/1562] MLM Loss: 2.9989
+[Epoch 1 | Step 1500/1562] MLM Loss: 2.9040
+Epoch 1 완료, 평균 MLM Loss: 2.9655
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch1.pt
+[Epoch 2 | Step 100/1562] MLM Loss: 3.1535
+[Epoch 2 | Step 200/1562] MLM Loss: 3.0946
+[Epoch 2 | Step 300/1562] MLM Loss: 2.9496
+[Epoch 2 | Step 400/1562] MLM Loss: 2.8938
+[Epoch 2 | Step 500/1562] MLM Loss: 3.3289
+[Epoch 2 | Step 600/1562] MLM Loss: 3.0210
+[Epoch 2 | Step 700/1562] MLM Loss: 2.8457
+[Epoch 2 | Step 800/1562] MLM Loss: 2.8805
+[Epoch 2 | Step 900/1562] MLM Loss: 3.0667
+[Epoch 2 | Step 1000/1562] MLM Loss: 2.8171
+[Epoch 2 | Step 1100/1562] MLM Loss: 2.7887
+[Epoch 2 | Step 1200/1562] MLM Loss: 2.8110
+[Epoch 2 | Step 1300/1562] MLM Loss: 2.8901
+[Epoch 2 | Step 1400/1562] MLM Loss: 2.8108
+[Epoch 2 | Step 1500/1562] MLM Loss: 3.0824
+Epoch 2 완료, 평균 MLM Loss: 2.9336
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch2.pt
+[Epoch 3 | Step 100/1562] MLM Loss: 3.2120
+[Epoch 3 | Step 200/1562] MLM Loss: 2.9920
+[Epoch 3 | Step 300/1562] MLM Loss: 2.8976
+[Epoch 3 | Step 400/1562] MLM Loss: 2.5694
+[Epoch 3 | Step 500/1562] MLM Loss: 2.9115
+[Epoch 3 | Step 600/1562] MLM Loss: 3.0271
+[Epoch 3 | Step 700/1562] MLM Loss: 3.0110
+[Epoch 3 | Step 800/1562] MLM Loss: 3.0210
+[Epoch 3 | Step 900/1562] MLM Loss: 3.2076
+[Epoch 3 | Step 1000/1562] MLM Loss: 2.8621
+[Epoch 3 | Step 1100/1562] MLM Loss: 3.0357
+[Epoch 3 | Step 1200/1562] MLM Loss: 3.1540
+[Epoch 3 | Step 1300/1562] MLM Loss: 3.1399
+[Epoch 3 | Step 1400/1562] MLM Loss: 3.1322
+[Epoch 3 | Step 1500/1562] MLM Loss: 3.0398
+Epoch 3 완료, 평균 MLM Loss: 2.9196
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch3.pt
+[Epoch 4 | Step 100/1562] MLM Loss: 2.7975
+[Epoch 4 | Step 200/1562] MLM Loss: 2.9342
+[Epoch 4 | Step 300/1562] MLM Loss: 3.0187
+[Epoch 4 | Step 400/1562] MLM Loss: 2.6224
+[Epoch 4 | Step 500/1562] MLM Loss: 2.8373
+[Epoch 4 | Step 600/1562] MLM Loss: 3.0176
+[Epoch 4 | Step 700/1562] MLM Loss: 2.7055
+[Epoch 4 | Step 800/1562] MLM Loss: 3.0676
+[Epoch 4 | Step 900/1562] MLM Loss: 2.8751
+[Epoch 4 | Step 1000/1562] MLM Loss: 2.8846
+[Epoch 4 | Step 1100/1562] MLM Loss: 3.1820
+[Epoch 4 | Step 1200/1562] MLM Loss: 3.1513
+[Epoch 4 | Step 1300/1562] MLM Loss: 2.7055
+[Epoch 4 | Step 1400/1562] MLM Loss: 3.0161
+[Epoch 4 | Step 1500/1562] MLM Loss: 2.8824
+Epoch 4 완료, 평균 MLM Loss: 2.9046
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch4.pt
+[Epoch 5 | Step 100/1562] MLM Loss: 3.0117
+[Epoch 5 | Step 200/1562] MLM Loss: 3.0868
+[Epoch 5 | Step 300/1562] MLM Loss: 2.9577
+[Epoch 5 | Step 400/1562] MLM Loss: 2.9633
+[Epoch 5 | Step 500/1562] MLM Loss: 2.8455
+[Epoch 5 | Step 600/1562] MLM Loss: 2.7218
+[Epoch 5 | Step 700/1562] MLM Loss: 2.8026
+[Epoch 5 | Step 800/1562] MLM Loss: 3.0302
+[Epoch 5 | Step 900/1562] MLM Loss: 3.2334
+[Epoch 5 | Step 1000/1562] MLM Loss: 2.8039
+[Epoch 5 | Step 1100/1562] MLM Loss: 2.8234
+[Epoch 5 | Step 1200/1562] MLM Loss: 2.7190
+[Epoch 5 | Step 1300/1562] MLM Loss: 2.5286
+[Epoch 5 | Step 1400/1562] MLM Loss: 2.8394
+[Epoch 5 | Step 1500/1562] MLM Loss: 3.0796
+Epoch 5 완료, 평균 MLM Loss: 2.8833
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch5.pt
+[Epoch 6 | Step 100/1562] MLM Loss: 3.1161
+[Epoch 6 | Step 200/1562] MLM Loss: 3.0232
+[Epoch 6 | Step 300/1562] MLM Loss: 2.6493
+[Epoch 6 | Step 400/1562] MLM Loss: 2.6209
+[Epoch 6 | Step 500/1562] MLM Loss: 3.1429
+[Epoch 6 | Step 600/1562] MLM Loss: 2.4938
+[Epoch 6 | Step 700/1562] MLM Loss: 2.7254
+[Epoch 6 | Step 800/1562] MLM Loss: 2.8130
+[Epoch 6 | Step 900/1562] MLM Loss: 3.0538
+[Epoch 6 | Step 1000/1562] MLM Loss: 2.6502
+[Epoch 6 | Step 1100/1562] MLM Loss: 3.0197
+[Epoch 6 | Step 1200/1562] MLM Loss: 3.0313
+[Epoch 6 | Step 1300/1562] MLM Loss: 2.8530
+[Epoch 6 | Step 1400/1562] MLM Loss: 2.7382
+[Epoch 6 | Step 1500/1562] MLM Loss: 3.0425
+Epoch 6 완료, 평균 MLM Loss: 2.8707
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch6.pt
+[Epoch 7 | Step 100/1562] MLM Loss: 2.7519
+[Epoch 7 | Step 200/1562] MLM Loss: 2.8978
+[Epoch 7 | Step 300/1562] MLM Loss: 2.4909
+[Epoch 7 | Step 400/1562] MLM Loss: 3.0060
+[Epoch 7 | Step 500/1562] MLM Loss: 2.7960
+[Epoch 7 | Step 600/1562] MLM Loss: 2.6497
+[Epoch 7 | Step 700/1562] MLM Loss: 2.5504
+[Epoch 7 | Step 800/1562] MLM Loss: 2.6164
+[Epoch 7 | Step 900/1562] MLM Loss: 2.9654
+[Epoch 7 | Step 1000/1562] MLM Loss: 2.8783
+[Epoch 7 | Step 1100/1562] MLM Loss: 2.9515
+[Epoch 7 | Step 1200/1562] MLM Loss: 3.0167
+[Epoch 7 | Step 1300/1562] MLM Loss: 2.9543
+[Epoch 7 | Step 1400/1562] MLM Loss: 2.3828
+[Epoch 7 | Step 1500/1562] MLM Loss: 2.7887
+Epoch 7 완료, 평균 MLM Loss: 2.8567
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch7.pt
+[Epoch 8 | Step 100/1562] MLM Loss: 2.6769
+[Epoch 8 | Step 200/1562] MLM Loss: 2.9654
+[Epoch 8 | Step 300/1562] MLM Loss: 2.6605
+[Epoch 8 | Step 400/1562] MLM Loss: 2.4739
+[Epoch 8 | Step 500/1562] MLM Loss: 2.8256
+[Epoch 8 | Step 600/1562] MLM Loss: 2.7583
+[Epoch 8 | Step 700/1562] MLM Loss: 3.0393
+[Epoch 8 | Step 800/1562] MLM Loss: 3.0998
+[Epoch 8 | Step 900/1562] MLM Loss: 2.7685
+[Epoch 8 | Step 1000/1562] MLM Loss: 3.1393
+[Epoch 8 | Step 1100/1562] MLM Loss: 2.7725
+[Epoch 8 | Step 1200/1562] MLM Loss: 2.7788
+[Epoch 8 | Step 1300/1562] MLM Loss: 2.8262
+[Epoch 8 | Step 1400/1562] MLM Loss: 2.9675
+[Epoch 8 | Step 1500/1562] MLM Loss: 3.0602
+Epoch 8 완료, 평균 MLM Loss: 2.8447
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch8.pt
+[Epoch 9 | Step 100/1562] MLM Loss: 2.8818
+[Epoch 9 | Step 200/1562] MLM Loss: 2.7823
+[Epoch 9 | Step 300/1562] MLM Loss: 2.8688
+[Epoch 9 | Step 400/1562] MLM Loss: 2.8149
+[Epoch 9 | Step 500/1562] MLM Loss: 2.8301
+[Epoch 9 | Step 600/1562] MLM Loss: 2.6954
+[Epoch 9 | Step 700/1562] MLM Loss: 2.9141
+[Epoch 9 | Step 800/1562] MLM Loss: 2.7740
+[Epoch 9 | Step 900/1562] MLM Loss: 2.8435
+[Epoch 9 | Step 1000/1562] MLM Loss: 2.8604
+[Epoch 9 | Step 1100/1562] MLM Loss: 2.7396
+[Epoch 9 | Step 1200/1562] MLM Loss: 2.3556
+[Epoch 9 | Step 1300/1562] MLM Loss: 2.8946
+[Epoch 9 | Step 1400/1562] MLM Loss: 2.6780
+[Epoch 9 | Step 1500/1562] MLM Loss: 2.7730
+Epoch 9 완료, 평균 MLM Loss: 2.8289
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch9.pt
+[Epoch 10 | Step 100/1562] MLM Loss: 2.9309
+[Epoch 10 | Step 200/1562] MLM Loss: 2.7119
+[Epoch 10 | Step 300/1562] MLM Loss: 2.9524
+[Epoch 10 | Step 400/1562] MLM Loss: 2.5678
+[Epoch 10 | Step 500/1562] MLM Loss: 2.9401
+[Epoch 10 | Step 600/1562] MLM Loss: 2.8657
+[Epoch 10 | Step 700/1562] MLM Loss: 3.0881
+[Epoch 10 | Step 800/1562] MLM Loss: 2.8984
+[Epoch 10 | Step 900/1562] MLM Loss: 2.7490
+[Epoch 10 | Step 1000/1562] MLM Loss: 3.0002
+[Epoch 10 | Step 1100/1562] MLM Loss: 2.7778
+[Epoch 10 | Step 1200/1562] MLM Loss: 3.1627
+[Epoch 10 | Step 1300/1562] MLM Loss: 2.5250
+[Epoch 10 | Step 1400/1562] MLM Loss: 2.8770
+[Epoch 10 | Step 1500/1562] MLM Loss: 2.7805
+Epoch 10 완료, 평균 MLM Loss: 2.8163
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch10.pt
+[Epoch 11 | Step 100/1562] MLM Loss: 3.1389
+[Epoch 11 | Step 200/1562] MLM Loss: 3.0316
+[Epoch 11 | Step 300/1562] MLM Loss: 3.1597
+[Epoch 11 | Step 400/1562] MLM Loss: 3.0087
+[Epoch 11 | Step 500/1562] MLM Loss: 2.7715
+[Epoch 11 | Step 600/1562] MLM Loss: 2.7669
+[Epoch 11 | Step 700/1562] MLM Loss: 2.6980
+[Epoch 11 | Step 800/1562] MLM Loss: 3.0978
+[Epoch 11 | Step 900/1562] MLM Loss: 2.9516
+[Epoch 11 | Step 1000/1562] MLM Loss: 2.7671
+[Epoch 11 | Step 1100/1562] MLM Loss: 2.3619
+[Epoch 11 | Step 1200/1562] MLM Loss: 2.7950
+[Epoch 11 | Step 1300/1562] MLM Loss: 2.9332
+[Epoch 11 | Step 1400/1562] MLM Loss: 3.3264
+[Epoch 11 | Step 1500/1562] MLM Loss: 2.4926
+Epoch 11 완료, 평균 MLM Loss: 2.8070
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch11.pt
+[Epoch 12 | Step 100/1562] MLM Loss: 3.0293
+[Epoch 12 | Step 200/1562] MLM Loss: 3.0975
+[Epoch 12 | Step 300/1562] MLM Loss: 2.7538
+[Epoch 12 | Step 400/1562] MLM Loss: 2.3753
+[Epoch 12 | Step 500/1562] MLM Loss: 2.4295
+[Epoch 12 | Step 600/1562] MLM Loss: 2.6671
+[Epoch 12 | Step 700/1562] MLM Loss: 2.7449
+[Epoch 12 | Step 800/1562] MLM Loss: 2.4081
+[Epoch 12 | Step 900/1562] MLM Loss: 2.8531
+[Epoch 12 | Step 1000/1562] MLM Loss: 2.8846
+[Epoch 12 | Step 1100/1562] MLM Loss: 2.7098
+[Epoch 12 | Step 1200/1562] MLM Loss: 2.9217
+[Epoch 12 | Step 1300/1562] MLM Loss: 3.4282
+[Epoch 12 | Step 1400/1562] MLM Loss: 2.7208
+[Epoch 12 | Step 1500/1562] MLM Loss: 2.5731
+Epoch 12 완료, 평균 MLM Loss: 2.8083
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch12.pt
+[Epoch 13 | Step 100/1562] MLM Loss: 2.7688
+[Epoch 13 | Step 200/1562] MLM Loss: 2.4773
+[Epoch 13 | Step 300/1562] MLM Loss: 2.7339
+[Epoch 13 | Step 400/1562] MLM Loss: 3.1299
+[Epoch 13 | Step 500/1562] MLM Loss: 2.7400
+[Epoch 13 | Step 600/1562] MLM Loss: 2.7703
+[Epoch 13 | Step 700/1562] MLM Loss: 2.5402
+[Epoch 13 | Step 800/1562] MLM Loss: 2.7182
+[Epoch 13 | Step 900/1562] MLM Loss: 2.7160
+[Epoch 13 | Step 1000/1562] MLM Loss: 2.8821
+[Epoch 13 | Step 1100/1562] MLM Loss: 3.0129
+[Epoch 13 | Step 1200/1562] MLM Loss: 2.8117
+[Epoch 13 | Step 1300/1562] MLM Loss: 2.8016
+[Epoch 13 | Step 1400/1562] MLM Loss: 2.7647
+[Epoch 13 | Step 1500/1562] MLM Loss: 2.6104
+Epoch 13 완료, 평균 MLM Loss: 2.7869
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch13.pt
+[Epoch 14 | Step 100/1562] MLM Loss: 3.1120
+[Epoch 14 | Step 200/1562] MLM Loss: 2.9468
+[Epoch 14 | Step 300/1562] MLM Loss: 2.8572
+[Epoch 14 | Step 400/1562] MLM Loss: 2.7234
+[Epoch 14 | Step 500/1562] MLM Loss: 2.7902
+[Epoch 14 | Step 600/1562] MLM Loss: 2.7473
+[Epoch 14 | Step 700/1562] MLM Loss: 2.9503
+[Epoch 14 | Step 800/1562] MLM Loss: 2.7546
+[Epoch 14 | Step 900/1562] MLM Loss: 2.9603
+[Epoch 14 | Step 1000/1562] MLM Loss: 2.6284
+[Epoch 14 | Step 1100/1562] MLM Loss: 2.6897
+[Epoch 14 | Step 1200/1562] MLM Loss: 2.9825
+[Epoch 14 | Step 1300/1562] MLM Loss: 2.7743
+[Epoch 14 | Step 1400/1562] MLM Loss: 2.6024
+[Epoch 14 | Step 1500/1562] MLM Loss: 2.7663
+Epoch 14 완료, 평균 MLM Loss: 2.7773
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch14.pt
+[Epoch 15 | Step 100/1562] MLM Loss: 2.6162
+[Epoch 15 | Step 200/1562] MLM Loss: 2.7394
+[Epoch 15 | Step 300/1562] MLM Loss: 2.6170
+[Epoch 15 | Step 400/1562] MLM Loss: 2.4918
+[Epoch 15 | Step 500/1562] MLM Loss: 2.8742
+[Epoch 15 | Step 600/1562] MLM Loss: 2.9245
+[Epoch 15 | Step 700/1562] MLM Loss: 3.2698
+[Epoch 15 | Step 800/1562] MLM Loss: 2.9849
+[Epoch 15 | Step 900/1562] MLM Loss: 2.6286
+[Epoch 15 | Step 1000/1562] MLM Loss: 2.6627
+[Epoch 15 | Step 1100/1562] MLM Loss: 3.1801
+[Epoch 15 | Step 1200/1562] MLM Loss: 2.9058
+[Epoch 15 | Step 1300/1562] MLM Loss: 2.9779
+[Epoch 15 | Step 1400/1562] MLM Loss: 2.5726
+[Epoch 15 | Step 1500/1562] MLM Loss: 2.5582
+Epoch 15 완료, 평균 MLM Loss: 2.7734
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch15.pt
+[Epoch 16 | Step 100/1562] MLM Loss: 2.7632
+[Epoch 16 | Step 200/1562] MLM Loss: 2.8030
+[Epoch 16 | Step 300/1562] MLM Loss: 2.6898
+[Epoch 16 | Step 400/1562] MLM Loss: 2.8544
+[Epoch 16 | Step 500/1562] MLM Loss: 2.7037
+[Epoch 16 | Step 600/1562] MLM Loss: 2.8502
+[Epoch 16 | Step 700/1562] MLM Loss: 2.6584
+[Epoch 16 | Step 800/1562] MLM Loss: 2.4060
+[Epoch 16 | Step 900/1562] MLM Loss: 2.7528
+[Epoch 16 | Step 1000/1562] MLM Loss: 2.8830
+[Epoch 16 | Step 1100/1562] MLM Loss: 2.9083
+[Epoch 16 | Step 1200/1562] MLM Loss: 2.7618
+[Epoch 16 | Step 1300/1562] MLM Loss: 2.7636
+[Epoch 16 | Step 1400/1562] MLM Loss: 2.7035
+[Epoch 16 | Step 1500/1562] MLM Loss: 2.8607
+Epoch 16 완료, 평균 MLM Loss: 2.7609
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch16.pt
+[Epoch 17 | Step 100/1562] MLM Loss: 2.9427
+[Epoch 17 | Step 200/1562] MLM Loss: 2.9785
+[Epoch 17 | Step 300/1562] MLM Loss: 2.6564
+[Epoch 17 | Step 400/1562] MLM Loss: 2.9852
+[Epoch 17 | Step 500/1562] MLM Loss: 2.8545
+[Epoch 17 | Step 600/1562] MLM Loss: 3.1371
+[Epoch 17 | Step 700/1562] MLM Loss: 2.6772
+[Epoch 17 | Step 800/1562] MLM Loss: 2.7997
+[Epoch 17 | Step 900/1562] MLM Loss: 2.6871
+[Epoch 17 | Step 1000/1562] MLM Loss: 2.9139
+[Epoch 17 | Step 1100/1562] MLM Loss: 3.0145
+[Epoch 17 | Step 1200/1562] MLM Loss: 2.6520
+[Epoch 17 | Step 1300/1562] MLM Loss: 2.9072
+[Epoch 17 | Step 1400/1562] MLM Loss: 2.9201
+[Epoch 17 | Step 1500/1562] MLM Loss: 2.9274
+Epoch 17 완료, 평균 MLM Loss: 2.7496
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch17.pt
+[Epoch 18 | Step 100/1562] MLM Loss: 2.8366
+[Epoch 18 | Step 200/1562] MLM Loss: 2.7402
+[Epoch 18 | Step 300/1562] MLM Loss: 2.7096
+[Epoch 18 | Step 400/1562] MLM Loss: 2.7132
+[Epoch 18 | Step 500/1562] MLM Loss: 2.7920
+[Epoch 18 | Step 600/1562] MLM Loss: 2.7795
+[Epoch 18 | Step 700/1562] MLM Loss: 2.4884
+[Epoch 18 | Step 800/1562] MLM Loss: 2.6999
+[Epoch 18 | Step 900/1562] MLM Loss: 3.1044
+[Epoch 18 | Step 1000/1562] MLM Loss: 2.6654
+[Epoch 18 | Step 1100/1562] MLM Loss: 2.8206
+[Epoch 18 | Step 1200/1562] MLM Loss: 2.7736
+[Epoch 18 | Step 1300/1562] MLM Loss: 2.5806
+[Epoch 18 | Step 1400/1562] MLM Loss: 2.3034
+[Epoch 18 | Step 1500/1562] MLM Loss: 2.7582
+Epoch 18 완료, 평균 MLM Loss: 2.7445
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch18.pt
+[Epoch 19 | Step 100/1562] MLM Loss: 2.7201
+[Epoch 19 | Step 200/1562] MLM Loss: 2.6595
+[Epoch 19 | Step 300/1562] MLM Loss: 2.7118
+[Epoch 19 | Step 400/1562] MLM Loss: 2.7586
+[Epoch 19 | Step 500/1562] MLM Loss: 2.7153
+[Epoch 19 | Step 600/1562] MLM Loss: 2.8584
+[Epoch 19 | Step 700/1562] MLM Loss: 2.9201
+[Epoch 19 | Step 800/1562] MLM Loss: 2.5349
+[Epoch 19 | Step 900/1562] MLM Loss: 2.8235
+[Epoch 19 | Step 1000/1562] MLM Loss: 2.7212
+[Epoch 19 | Step 1100/1562] MLM Loss: 2.8125
+[Epoch 19 | Step 1200/1562] MLM Loss: 2.7270
+[Epoch 19 | Step 1300/1562] MLM Loss: 2.7918
+[Epoch 19 | Step 1400/1562] MLM Loss: 2.7825
+[Epoch 19 | Step 1500/1562] MLM Loss: 2.6256
+Epoch 19 완료, 평균 MLM Loss: 2.7301
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch19.pt
+[Epoch 20 | Step 100/1562] MLM Loss: 3.0053
+[Epoch 20 | Step 200/1562] MLM Loss: 2.5618
+[Epoch 20 | Step 300/1562] MLM Loss: 2.7580
+[Epoch 20 | Step 400/1562] MLM Loss: 2.5690
+[Epoch 20 | Step 500/1562] MLM Loss: 2.4829
+[Epoch 20 | Step 600/1562] MLM Loss: 3.0281
+[Epoch 20 | Step 700/1562] MLM Loss: 2.7877
+[Epoch 20 | Step 800/1562] MLM Loss: 2.8077
+[Epoch 20 | Step 900/1562] MLM Loss: 2.9955
+[Epoch 20 | Step 1000/1562] MLM Loss: 2.7627
+[Epoch 20 | Step 1100/1562] MLM Loss: 2.6730
+[Epoch 20 | Step 1200/1562] MLM Loss: 2.6765
+[Epoch 20 | Step 1300/1562] MLM Loss: 2.6191
+[Epoch 20 | Step 1400/1562] MLM Loss: 2.6975
+[Epoch 20 | Step 1500/1562] MLM Loss: 2.5488
+Epoch 20 완료, 평균 MLM Loss: 2.7268
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch20.pt
+[Epoch 21 | Step 100/1562] MLM Loss: 2.4024
+[Epoch 21 | Step 200/1562] MLM Loss: 2.5029
+[Epoch 21 | Step 300/1562] MLM Loss: 2.7665
+[Epoch 21 | Step 400/1562] MLM Loss: 2.5041
+[Epoch 21 | Step 500/1562] MLM Loss: 2.6820
+[Epoch 21 | Step 600/1562] MLM Loss: 2.7680
+[Epoch 21 | Step 700/1562] MLM Loss: 3.0476
+[Epoch 21 | Step 800/1562] MLM Loss: 2.7611
+[Epoch 21 | Step 900/1562] MLM Loss: 2.7404
+[Epoch 21 | Step 1000/1562] MLM Loss: 2.7337
+[Epoch 21 | Step 1100/1562] MLM Loss: 2.6828
+[Epoch 21 | Step 1200/1562] MLM Loss: 2.8069
+[Epoch 21 | Step 1300/1562] MLM Loss: 2.7615
+[Epoch 21 | Step 1400/1562] MLM Loss: 2.7676
+[Epoch 21 | Step 1500/1562] MLM Loss: 2.7186
+Epoch 21 완료, 평균 MLM Loss: 2.7113
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch21.pt
+[Epoch 22 | Step 100/1562] MLM Loss: 2.8788
+[Epoch 22 | Step 200/1562] MLM Loss: 2.7243
+[Epoch 22 | Step 300/1562] MLM Loss: 2.7496
+[Epoch 22 | Step 400/1562] MLM Loss: 2.9003
+[Epoch 22 | Step 500/1562] MLM Loss: 2.5192
+[Epoch 22 | Step 600/1562] MLM Loss: 3.3217
+[Epoch 22 | Step 700/1562] MLM Loss: 2.8113
+[Epoch 22 | Step 800/1562] MLM Loss: 2.9789
+[Epoch 22 | Step 900/1562] MLM Loss: 2.8817
+[Epoch 22 | Step 1000/1562] MLM Loss: 2.9817
+[Epoch 22 | Step 1100/1562] MLM Loss: 2.5703
+[Epoch 22 | Step 1200/1562] MLM Loss: 2.6600
+[Epoch 22 | Step 1300/1562] MLM Loss: 2.8148
+[Epoch 22 | Step 1400/1562] MLM Loss: 2.6108
+[Epoch 22 | Step 1500/1562] MLM Loss: 2.6671
+Epoch 22 완료, 평균 MLM Loss: 2.7154
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch22.pt
+[Epoch 23 | Step 100/1562] MLM Loss: 2.6534
+[Epoch 23 | Step 200/1562] MLM Loss: 2.6413
+[Epoch 23 | Step 300/1562] MLM Loss: 2.5667
+[Epoch 23 | Step 400/1562] MLM Loss: 2.6674
+[Epoch 23 | Step 500/1562] MLM Loss: 2.5020
+[Epoch 23 | Step 600/1562] MLM Loss: 2.5933
+[Epoch 23 | Step 700/1562] MLM Loss: 2.5069
+[Epoch 23 | Step 800/1562] MLM Loss: 2.8495
+[Epoch 23 | Step 900/1562] MLM Loss: 2.7913
+[Epoch 23 | Step 1000/1562] MLM Loss: 2.5654
+[Epoch 23 | Step 1100/1562] MLM Loss: 2.6874
+[Epoch 23 | Step 1200/1562] MLM Loss: 2.7439
+[Epoch 23 | Step 1300/1562] MLM Loss: 2.4836
+[Epoch 23 | Step 1400/1562] MLM Loss: 2.5925
+[Epoch 23 | Step 1500/1562] MLM Loss: 2.6414
+Epoch 23 완료, 평균 MLM Loss: 2.7022
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch23.pt
+[Epoch 24 | Step 100/1562] MLM Loss: 2.5340
+[Epoch 24 | Step 200/1562] MLM Loss: 3.0550
+[Epoch 24 | Step 300/1562] MLM Loss: 2.6743
+[Epoch 24 | Step 400/1562] MLM Loss: 2.6710
+[Epoch 24 | Step 500/1562] MLM Loss: 2.6370
+[Epoch 24 | Step 600/1562] MLM Loss: 2.4306
+[Epoch 24 | Step 700/1562] MLM Loss: 3.0316
+[Epoch 24 | Step 800/1562] MLM Loss: 2.6201
+[Epoch 24 | Step 900/1562] MLM Loss: 2.4143
+[Epoch 24 | Step 1000/1562] MLM Loss: 3.0052
+[Epoch 24 | Step 1100/1562] MLM Loss: 2.5024
+[Epoch 24 | Step 1200/1562] MLM Loss: 2.7560
+[Epoch 24 | Step 1300/1562] MLM Loss: 2.8384
+[Epoch 24 | Step 1400/1562] MLM Loss: 2.7887
+[Epoch 24 | Step 1500/1562] MLM Loss: 2.8013
+Epoch 24 완료, 평균 MLM Loss: 2.6910
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch24.pt
+[Epoch 25 | Step 100/1562] MLM Loss: 2.5179
+[Epoch 25 | Step 200/1562] MLM Loss: 2.6962
+[Epoch 25 | Step 300/1562] MLM Loss: 2.6121
+[Epoch 25 | Step 400/1562] MLM Loss: 2.7780
+[Epoch 25 | Step 500/1562] MLM Loss: 2.6467
+[Epoch 25 | Step 600/1562] MLM Loss: 2.4629
+[Epoch 25 | Step 700/1562] MLM Loss: 2.8996
+[Epoch 25 | Step 800/1562] MLM Loss: 2.7577
+[Epoch 25 | Step 900/1562] MLM Loss: 2.7369
+[Epoch 25 | Step 1000/1562] MLM Loss: 2.3825
+[Epoch 25 | Step 1100/1562] MLM Loss: 2.4385
+[Epoch 25 | Step 1200/1562] MLM Loss: 2.5573
+[Epoch 25 | Step 1300/1562] MLM Loss: 2.9622
+[Epoch 25 | Step 1400/1562] MLM Loss: 2.7702
+[Epoch 25 | Step 1500/1562] MLM Loss: 2.7407
+Epoch 25 완료, 평균 MLM Loss: 2.6932
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch25.pt
+[Epoch 26 | Step 100/1562] MLM Loss: 2.5920
+[Epoch 26 | Step 200/1562] MLM Loss: 2.9194
+[Epoch 26 | Step 300/1562] MLM Loss: 2.5270
+[Epoch 26 | Step 400/1562] MLM Loss: 2.7816
+[Epoch 26 | Step 500/1562] MLM Loss: 2.7714
+[Epoch 26 | Step 600/1562] MLM Loss: 2.3678
+[Epoch 26 | Step 700/1562] MLM Loss: 2.8436
+[Epoch 26 | Step 800/1562] MLM Loss: 2.8759
+[Epoch 26 | Step 900/1562] MLM Loss: 2.6888
+[Epoch 26 | Step 1000/1562] MLM Loss: 2.8849
+[Epoch 26 | Step 1100/1562] MLM Loss: 2.6673
+[Epoch 26 | Step 1200/1562] MLM Loss: 2.7745
+[Epoch 26 | Step 1300/1562] MLM Loss: 3.0170
+[Epoch 26 | Step 1400/1562] MLM Loss: 2.3695
+[Epoch 26 | Step 1500/1562] MLM Loss: 2.4346
+Epoch 26 완료, 평균 MLM Loss: 2.6793
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch26.pt
+[Epoch 27 | Step 100/1562] MLM Loss: 2.5450
+[Epoch 27 | Step 200/1562] MLM Loss: 2.3187
+[Epoch 27 | Step 300/1562] MLM Loss: 2.6145
+[Epoch 27 | Step 400/1562] MLM Loss: 2.7553
+[Epoch 27 | Step 500/1562] MLM Loss: 2.6953
+[Epoch 27 | Step 600/1562] MLM Loss: 2.7371
+[Epoch 27 | Step 700/1562] MLM Loss: 2.3713
+[Epoch 27 | Step 800/1562] MLM Loss: 2.8607
+[Epoch 27 | Step 900/1562] MLM Loss: 2.5816
+[Epoch 27 | Step 1000/1562] MLM Loss: 2.8923
+[Epoch 27 | Step 1100/1562] MLM Loss: 2.6956
+[Epoch 27 | Step 1200/1562] MLM Loss: 2.7055
+[Epoch 27 | Step 1300/1562] MLM Loss: 2.6831
+[Epoch 27 | Step 1400/1562] MLM Loss: 2.5116
+[Epoch 27 | Step 1500/1562] MLM Loss: 2.5710
+Epoch 27 완료, 평균 MLM Loss: 2.6718
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch27.pt
+[Epoch 28 | Step 100/1562] MLM Loss: 2.7272
+[Epoch 28 | Step 200/1562] MLM Loss: 2.4952
+[Epoch 28 | Step 300/1562] MLM Loss: 2.5608
+[Epoch 28 | Step 400/1562] MLM Loss: 2.4388
+[Epoch 28 | Step 500/1562] MLM Loss: 3.0230
+[Epoch 28 | Step 600/1562] MLM Loss: 2.7333
+[Epoch 28 | Step 700/1562] MLM Loss: 2.6957
+[Epoch 28 | Step 800/1562] MLM Loss: 2.6831
+[Epoch 28 | Step 900/1562] MLM Loss: 2.5737
+[Epoch 28 | Step 1000/1562] MLM Loss: 2.5312
+[Epoch 28 | Step 1100/1562] MLM Loss: 2.8090
+[Epoch 28 | Step 1200/1562] MLM Loss: 2.9529
+[Epoch 28 | Step 1300/1562] MLM Loss: 2.7857
+[Epoch 28 | Step 1400/1562] MLM Loss: 2.4057
+[Epoch 28 | Step 1500/1562] MLM Loss: 2.8035
+Epoch 28 완료, 평균 MLM Loss: 2.6641
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch28.pt
+[Epoch 29 | Step 100/1562] MLM Loss: 2.3070
+[Epoch 29 | Step 200/1562] MLM Loss: 2.4243
+[Epoch 29 | Step 300/1562] MLM Loss: 2.4408
+[Epoch 29 | Step 400/1562] MLM Loss: 2.2905
+[Epoch 29 | Step 500/1562] MLM Loss: 2.8246
+[Epoch 29 | Step 600/1562] MLM Loss: 2.5627
+[Epoch 29 | Step 700/1562] MLM Loss: 2.6393
+[Epoch 29 | Step 800/1562] MLM Loss: 2.6549
+[Epoch 29 | Step 900/1562] MLM Loss: 2.6867
+[Epoch 29 | Step 1000/1562] MLM Loss: 2.7286
+[Epoch 29 | Step 1100/1562] MLM Loss: 2.7522
+[Epoch 29 | Step 1200/1562] MLM Loss: 2.8148
+[Epoch 29 | Step 1300/1562] MLM Loss: 2.5983
+[Epoch 29 | Step 1400/1562] MLM Loss: 2.3913
+[Epoch 29 | Step 1500/1562] MLM Loss: 2.5898
+Epoch 29 완료, 평균 MLM Loss: 2.6547
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch29.pt
+[Epoch 30 | Step 100/1562] MLM Loss: 2.3885
+[Epoch 30 | Step 200/1562] MLM Loss: 2.8003
+[Epoch 30 | Step 300/1562] MLM Loss: 2.6648
+[Epoch 30 | Step 400/1562] MLM Loss: 2.7635
+[Epoch 30 | Step 500/1562] MLM Loss: 2.8417
+[Epoch 30 | Step 600/1562] MLM Loss: 2.8363
+[Epoch 30 | Step 700/1562] MLM Loss: 2.6936
+[Epoch 30 | Step 800/1562] MLM Loss: 2.5924
+[Epoch 30 | Step 900/1562] MLM Loss: 2.9786
+[Epoch 30 | Step 1000/1562] MLM Loss: 2.4268
+[Epoch 30 | Step 1100/1562] MLM Loss: 2.7415
+[Epoch 30 | Step 1200/1562] MLM Loss: 2.5915
+[Epoch 30 | Step 1300/1562] MLM Loss: 2.6146
+[Epoch 30 | Step 1400/1562] MLM Loss: 2.7531
+[Epoch 30 | Step 1500/1562] MLM Loss: 2.5657
+Epoch 30 완료, 평균 MLM Loss: 2.6541
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch30.pt
+[Epoch 31 | Step 100/1562] MLM Loss: 2.5563
+[Epoch 31 | Step 200/1562] MLM Loss: 2.2886
+[Epoch 31 | Step 300/1562] MLM Loss: 2.5656
+[Epoch 31 | Step 400/1562] MLM Loss: 2.4377
+[Epoch 31 | Step 500/1562] MLM Loss: 2.7446
+[Epoch 31 | Step 600/1562] MLM Loss: 2.5150
+[Epoch 31 | Step 700/1562] MLM Loss: 2.5996
+[Epoch 31 | Step 800/1562] MLM Loss: 2.8269
+[Epoch 31 | Step 900/1562] MLM Loss: 2.8674
+[Epoch 31 | Step 1000/1562] MLM Loss: 2.5991
+[Epoch 31 | Step 1100/1562] MLM Loss: 3.0240
+[Epoch 31 | Step 1200/1562] MLM Loss: 2.5321
+[Epoch 31 | Step 1300/1562] MLM Loss: 2.8724
+[Epoch 31 | Step 1400/1562] MLM Loss: 2.6038
+[Epoch 31 | Step 1500/1562] MLM Loss: 2.7959
+Epoch 31 완료, 평균 MLM Loss: 2.6468
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch31.pt
+[Epoch 32 | Step 100/1562] MLM Loss: 2.5824
+[Epoch 32 | Step 200/1562] MLM Loss: 2.3895
+[Epoch 32 | Step 300/1562] MLM Loss: 2.9067
+[Epoch 32 | Step 400/1562] MLM Loss: 2.9420
+[Epoch 32 | Step 500/1562] MLM Loss: 2.7052
+[Epoch 32 | Step 600/1562] MLM Loss: 2.4532
+[Epoch 32 | Step 700/1562] MLM Loss: 2.7367
+[Epoch 32 | Step 800/1562] MLM Loss: 2.4110
+[Epoch 32 | Step 900/1562] MLM Loss: 2.4910
+[Epoch 32 | Step 1000/1562] MLM Loss: 2.9729
+[Epoch 32 | Step 1100/1562] MLM Loss: 2.8505
+[Epoch 32 | Step 1200/1562] MLM Loss: 2.8125
+[Epoch 32 | Step 1300/1562] MLM Loss: 2.7501
+[Epoch 32 | Step 1400/1562] MLM Loss: 2.5986
+[Epoch 32 | Step 1500/1562] MLM Loss: 2.4413
+Epoch 32 완료, 평균 MLM Loss: 2.6408
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch32.pt
+[Epoch 33 | Step 100/1562] MLM Loss: 2.7480
+[Epoch 33 | Step 200/1562] MLM Loss: 2.5569
+[Epoch 33 | Step 300/1562] MLM Loss: 2.2440
+[Epoch 33 | Step 400/1562] MLM Loss: 2.6774
+[Epoch 33 | Step 500/1562] MLM Loss: 2.6816
+[Epoch 33 | Step 600/1562] MLM Loss: 2.3359
+[Epoch 33 | Step 700/1562] MLM Loss: 2.6728
+[Epoch 33 | Step 800/1562] MLM Loss: 2.4293
+[Epoch 33 | Step 900/1562] MLM Loss: 2.6514
+[Epoch 33 | Step 1000/1562] MLM Loss: 2.6016
+[Epoch 33 | Step 1100/1562] MLM Loss: 2.9104
+[Epoch 33 | Step 1200/1562] MLM Loss: 2.7335
+[Epoch 33 | Step 1300/1562] MLM Loss: 2.7781
+[Epoch 33 | Step 1400/1562] MLM Loss: 2.4726
+[Epoch 33 | Step 1500/1562] MLM Loss: 2.9532
+Epoch 33 완료, 평균 MLM Loss: 2.6347
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch33.pt
+[Epoch 34 | Step 100/1562] MLM Loss: 2.4877
+[Epoch 34 | Step 200/1562] MLM Loss: 2.8421
+[Epoch 34 | Step 300/1562] MLM Loss: 2.6858
+[Epoch 34 | Step 400/1562] MLM Loss: 2.5843
+[Epoch 34 | Step 500/1562] MLM Loss: 2.6756
+[Epoch 34 | Step 600/1562] MLM Loss: 2.5094
+[Epoch 34 | Step 700/1562] MLM Loss: 2.5070
+[Epoch 34 | Step 800/1562] MLM Loss: 2.7803
+[Epoch 34 | Step 900/1562] MLM Loss: 2.4459
+[Epoch 34 | Step 1000/1562] MLM Loss: 2.7239
+[Epoch 34 | Step 1100/1562] MLM Loss: 2.5980
+[Epoch 34 | Step 1200/1562] MLM Loss: 2.6486
+[Epoch 34 | Step 1300/1562] MLM Loss: 2.6042
+[Epoch 34 | Step 1400/1562] MLM Loss: 2.4750
+[Epoch 34 | Step 1500/1562] MLM Loss: 2.4844
+Epoch 34 완료, 평균 MLM Loss: 2.6307
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch34.pt
+[Epoch 35 | Step 100/1562] MLM Loss: 2.4867
+[Epoch 35 | Step 200/1562] MLM Loss: 2.5782
+[Epoch 35 | Step 300/1562] MLM Loss: 2.6540
+[Epoch 35 | Step 400/1562] MLM Loss: 2.5219
+[Epoch 35 | Step 500/1562] MLM Loss: 2.8158
+[Epoch 35 | Step 600/1562] MLM Loss: 3.0345
+[Epoch 35 | Step 700/1562] MLM Loss: 2.5930
+[Epoch 35 | Step 800/1562] MLM Loss: 2.6563
+[Epoch 35 | Step 900/1562] MLM Loss: 2.4834
+[Epoch 35 | Step 1000/1562] MLM Loss: 2.3709
+[Epoch 35 | Step 1100/1562] MLM Loss: 2.5557
+[Epoch 35 | Step 1200/1562] MLM Loss: 2.4912
+[Epoch 35 | Step 1300/1562] MLM Loss: 2.6460
+[Epoch 35 | Step 1400/1562] MLM Loss: 2.7731
+[Epoch 35 | Step 1500/1562] MLM Loss: 2.5555
+Epoch 35 완료, 평균 MLM Loss: 2.6144
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch35.pt
+[Epoch 36 | Step 100/1562] MLM Loss: 2.4904
+[Epoch 36 | Step 200/1562] MLM Loss: 2.6987
+[Epoch 36 | Step 300/1562] MLM Loss: 2.3496
+[Epoch 36 | Step 400/1562] MLM Loss: 2.8075
+[Epoch 36 | Step 500/1562] MLM Loss: 2.5069
+[Epoch 36 | Step 600/1562] MLM Loss: 2.4589
+[Epoch 36 | Step 700/1562] MLM Loss: 2.4312
+[Epoch 36 | Step 800/1562] MLM Loss: 2.6258
+[Epoch 36 | Step 900/1562] MLM Loss: 2.9155
+[Epoch 36 | Step 1000/1562] MLM Loss: 2.5828
+[Epoch 36 | Step 1100/1562] MLM Loss: 2.7317
+[Epoch 36 | Step 1200/1562] MLM Loss: 2.6470
+[Epoch 36 | Step 1300/1562] MLM Loss: 2.6762
+[Epoch 36 | Step 1400/1562] MLM Loss: 2.8900
+[Epoch 36 | Step 1500/1562] MLM Loss: 2.4347
+Epoch 36 완료, 평균 MLM Loss: 2.6150
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch36.pt
+[Epoch 37 | Step 100/1562] MLM Loss: 2.8680
+[Epoch 37 | Step 200/1562] MLM Loss: 2.1845
+[Epoch 37 | Step 300/1562] MLM Loss: 2.3261
+[Epoch 37 | Step 400/1562] MLM Loss: 2.5678
+[Epoch 37 | Step 500/1562] MLM Loss: 2.4457
+[Epoch 37 | Step 600/1562] MLM Loss: 2.8102
+[Epoch 37 | Step 700/1562] MLM Loss: 2.4643
+[Epoch 37 | Step 800/1562] MLM Loss: 2.6379
+[Epoch 37 | Step 900/1562] MLM Loss: 2.9328
+[Epoch 37 | Step 1000/1562] MLM Loss: 2.7009
+[Epoch 37 | Step 1100/1562] MLM Loss: 2.3967
+[Epoch 37 | Step 1200/1562] MLM Loss: 2.4669
+[Epoch 37 | Step 1300/1562] MLM Loss: 2.5407
+[Epoch 37 | Step 1400/1562] MLM Loss: 2.6876
+[Epoch 37 | Step 1500/1562] MLM Loss: 2.8470
+Epoch 37 완료, 평균 MLM Loss: 2.6036
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch37.pt
+[Epoch 38 | Step 100/1562] MLM Loss: 2.8378
+[Epoch 38 | Step 200/1562] MLM Loss: 2.6498
+[Epoch 38 | Step 300/1562] MLM Loss: 2.7476
+[Epoch 38 | Step 400/1562] MLM Loss: 2.3627
+[Epoch 38 | Step 500/1562] MLM Loss: 2.6022
+[Epoch 38 | Step 600/1562] MLM Loss: 2.6436
+[Epoch 38 | Step 700/1562] MLM Loss: 2.4694
+[Epoch 38 | Step 800/1562] MLM Loss: 2.3333
+[Epoch 38 | Step 900/1562] MLM Loss: 2.5512
+[Epoch 38 | Step 1000/1562] MLM Loss: 2.6994
+[Epoch 38 | Step 1100/1562] MLM Loss: 2.6486
+[Epoch 38 | Step 1200/1562] MLM Loss: 2.6393
+[Epoch 38 | Step 1300/1562] MLM Loss: 2.3564
+[Epoch 38 | Step 1400/1562] MLM Loss: 2.6663
+[Epoch 38 | Step 1500/1562] MLM Loss: 2.5928
+Epoch 38 완료, 평균 MLM Loss: 2.6052
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch38.pt
+[Epoch 39 | Step 100/1562] MLM Loss: 2.6196
+[Epoch 39 | Step 200/1562] MLM Loss: 2.5823
+[Epoch 39 | Step 300/1562] MLM Loss: 2.7538
+[Epoch 39 | Step 400/1562] MLM Loss: 2.4002
+[Epoch 39 | Step 500/1562] MLM Loss: 2.5948
+[Epoch 39 | Step 600/1562] MLM Loss: 2.3451
+[Epoch 39 | Step 700/1562] MLM Loss: 2.5369
+[Epoch 39 | Step 800/1562] MLM Loss: 2.5863
+[Epoch 39 | Step 900/1562] MLM Loss: 2.6569
+[Epoch 39 | Step 1000/1562] MLM Loss: 2.5474
+[Epoch 39 | Step 1100/1562] MLM Loss: 2.6260
+[Epoch 39 | Step 1200/1562] MLM Loss: 2.7881
+[Epoch 39 | Step 1300/1562] MLM Loss: 2.7350
+[Epoch 39 | Step 1400/1562] MLM Loss: 2.1768
+[Epoch 39 | Step 1500/1562] MLM Loss: 2.2872
+Epoch 39 완료, 평균 MLM Loss: 2.5903
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch39.pt
+[Epoch 40 | Step 100/1562] MLM Loss: 2.4771
+[Epoch 40 | Step 200/1562] MLM Loss: 2.5875
+[Epoch 40 | Step 300/1562] MLM Loss: 2.8349
+[Epoch 40 | Step 400/1562] MLM Loss: 2.4072
+[Epoch 40 | Step 500/1562] MLM Loss: 2.4955
+[Epoch 40 | Step 600/1562] MLM Loss: 2.9843
+[Epoch 40 | Step 700/1562] MLM Loss: 2.2371
+[Epoch 40 | Step 800/1562] MLM Loss: 2.6322
+[Epoch 40 | Step 900/1562] MLM Loss: 2.5739
+[Epoch 40 | Step 1000/1562] MLM Loss: 2.4632
+[Epoch 40 | Step 1100/1562] MLM Loss: 2.7563
+[Epoch 40 | Step 1200/1562] MLM Loss: 2.4963
+[Epoch 40 | Step 1300/1562] MLM Loss: 2.4556
+[Epoch 40 | Step 1400/1562] MLM Loss: 2.5949
+[Epoch 40 | Step 1500/1562] MLM Loss: 2.5934
+Epoch 40 완료, 평균 MLM Loss: 2.5877
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch40.pt
+[Epoch 41 | Step 100/1562] MLM Loss: 2.7443
+[Epoch 41 | Step 200/1562] MLM Loss: 2.4380
+[Epoch 41 | Step 300/1562] MLM Loss: 2.4513
+[Epoch 41 | Step 400/1562] MLM Loss: 2.6258
+[Epoch 41 | Step 500/1562] MLM Loss: 2.6799
+[Epoch 41 | Step 600/1562] MLM Loss: 2.5806
+[Epoch 41 | Step 700/1562] MLM Loss: 2.7234
+[Epoch 41 | Step 800/1562] MLM Loss: 2.5245
+[Epoch 41 | Step 900/1562] MLM Loss: 2.5287
+[Epoch 41 | Step 1000/1562] MLM Loss: 2.3553
+[Epoch 41 | Step 1100/1562] MLM Loss: 2.5422
+[Epoch 41 | Step 1200/1562] MLM Loss: 2.6860
+[Epoch 41 | Step 1300/1562] MLM Loss: 2.5588
+[Epoch 41 | Step 1400/1562] MLM Loss: 2.6440
+[Epoch 41 | Step 1500/1562] MLM Loss: 2.8867
+Epoch 41 완료, 평균 MLM Loss: 2.5851
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch41.pt
+[Epoch 42 | Step 100/1562] MLM Loss: 2.6074
+[Epoch 42 | Step 200/1562] MLM Loss: 2.5459
+[Epoch 42 | Step 300/1562] MLM Loss: 2.3814
+[Epoch 42 | Step 400/1562] MLM Loss: 2.7204
+[Epoch 42 | Step 500/1562] MLM Loss: 2.7452
+[Epoch 42 | Step 600/1562] MLM Loss: 2.6938
+[Epoch 42 | Step 700/1562] MLM Loss: 2.6936
+[Epoch 42 | Step 800/1562] MLM Loss: 2.2597
+[Epoch 42 | Step 900/1562] MLM Loss: 2.8858
+[Epoch 42 | Step 1000/1562] MLM Loss: 2.5837
+[Epoch 42 | Step 1100/1562] MLM Loss: 2.6995
+[Epoch 42 | Step 1200/1562] MLM Loss: 2.8089
+[Epoch 42 | Step 1300/1562] MLM Loss: 2.4997
+[Epoch 42 | Step 1400/1562] MLM Loss: 2.6275
+[Epoch 42 | Step 1500/1562] MLM Loss: 2.3036
+Epoch 42 완료, 평균 MLM Loss: 2.5790
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch42.pt
+[Epoch 43 | Step 100/1562] MLM Loss: 2.7714
+[Epoch 43 | Step 200/1562] MLM Loss: 2.3998
+[Epoch 43 | Step 300/1562] MLM Loss: 2.4513
+[Epoch 43 | Step 400/1562] MLM Loss: 2.5693
+[Epoch 43 | Step 500/1562] MLM Loss: 2.8958
+[Epoch 43 | Step 600/1562] MLM Loss: 2.6654
+[Epoch 43 | Step 700/1562] MLM Loss: 2.5378
+[Epoch 43 | Step 800/1562] MLM Loss: 2.4271
+[Epoch 43 | Step 900/1562] MLM Loss: 2.4419
+[Epoch 43 | Step 1000/1562] MLM Loss: 2.3507
+[Epoch 43 | Step 1100/1562] MLM Loss: 2.3825
+[Epoch 43 | Step 1200/1562] MLM Loss: 2.5727
+[Epoch 43 | Step 1300/1562] MLM Loss: 2.5648
+[Epoch 43 | Step 1400/1562] MLM Loss: 2.5397
+[Epoch 43 | Step 1500/1562] MLM Loss: 2.7890
+Epoch 43 완료, 평균 MLM Loss: 2.5694
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch43.pt
+[Epoch 44 | Step 100/1562] MLM Loss: 2.8412
+[Epoch 44 | Step 200/1562] MLM Loss: 2.8583
+[Epoch 44 | Step 300/1562] MLM Loss: 2.6543
+[Epoch 44 | Step 400/1562] MLM Loss: 2.7443
+[Epoch 44 | Step 500/1562] MLM Loss: 2.6831
+[Epoch 44 | Step 600/1562] MLM Loss: 2.2907
+[Epoch 44 | Step 700/1562] MLM Loss: 2.4923
+[Epoch 44 | Step 800/1562] MLM Loss: 2.5826
+[Epoch 44 | Step 900/1562] MLM Loss: 2.4655
+[Epoch 44 | Step 1000/1562] MLM Loss: 2.2103
+[Epoch 44 | Step 1100/1562] MLM Loss: 2.4166
+[Epoch 44 | Step 1200/1562] MLM Loss: 2.7506
+[Epoch 44 | Step 1300/1562] MLM Loss: 2.5876
+[Epoch 44 | Step 1400/1562] MLM Loss: 2.7471
+[Epoch 44 | Step 1500/1562] MLM Loss: 2.5159
+Epoch 44 완료, 평균 MLM Loss: 2.5736
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch44.pt
+[Epoch 45 | Step 100/1562] MLM Loss: 2.5464
+[Epoch 45 | Step 200/1562] MLM Loss: 2.5353
+[Epoch 45 | Step 300/1562] MLM Loss: 2.3344
+[Epoch 45 | Step 400/1562] MLM Loss: 2.3265
+[Epoch 45 | Step 500/1562] MLM Loss: 2.3216
+[Epoch 45 | Step 600/1562] MLM Loss: 2.7302
+[Epoch 45 | Step 700/1562] MLM Loss: 2.7045
+[Epoch 45 | Step 800/1562] MLM Loss: 2.5403
+[Epoch 45 | Step 900/1562] MLM Loss: 2.7623
+[Epoch 45 | Step 1000/1562] MLM Loss: 2.4314
+[Epoch 45 | Step 1100/1562] MLM Loss: 2.7299
+[Epoch 45 | Step 1200/1562] MLM Loss: 2.6210
+[Epoch 45 | Step 1300/1562] MLM Loss: 2.5750
+[Epoch 45 | Step 1400/1562] MLM Loss: 2.3784
+[Epoch 45 | Step 1500/1562] MLM Loss: 2.5264
+Epoch 45 완료, 평균 MLM Loss: 2.5639
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch45.pt
+[Epoch 46 | Step 100/1562] MLM Loss: 2.3959
+[Epoch 46 | Step 200/1562] MLM Loss: 2.7811
+[Epoch 46 | Step 300/1562] MLM Loss: 2.7229
+[Epoch 46 | Step 400/1562] MLM Loss: 2.8270
+[Epoch 46 | Step 500/1562] MLM Loss: 2.7588
+[Epoch 46 | Step 600/1562] MLM Loss: 2.5426
+[Epoch 46 | Step 700/1562] MLM Loss: 2.8164
+[Epoch 46 | Step 800/1562] MLM Loss: 2.7025
+[Epoch 46 | Step 900/1562] MLM Loss: 2.7484
+[Epoch 46 | Step 1000/1562] MLM Loss: 2.4967
+[Epoch 46 | Step 1100/1562] MLM Loss: 2.1945
+[Epoch 46 | Step 1200/1562] MLM Loss: 2.4615
+[Epoch 46 | Step 1300/1562] MLM Loss: 2.9082
+[Epoch 46 | Step 1400/1562] MLM Loss: 2.5708
+[Epoch 46 | Step 1500/1562] MLM Loss: 2.5960
+Epoch 46 완료, 평균 MLM Loss: 2.5615
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch46.pt
+[Epoch 47 | Step 100/1562] MLM Loss: 2.6486
+[Epoch 47 | Step 200/1562] MLM Loss: 2.5672
+[Epoch 47 | Step 300/1562] MLM Loss: 2.6271
+[Epoch 47 | Step 400/1562] MLM Loss: 2.2816
+[Epoch 47 | Step 500/1562] MLM Loss: 2.5959
+[Epoch 47 | Step 600/1562] MLM Loss: 2.5982
+[Epoch 47 | Step 700/1562] MLM Loss: 2.5212
+[Epoch 47 | Step 800/1562] MLM Loss: 2.6286
+[Epoch 47 | Step 900/1562] MLM Loss: 2.5940
+[Epoch 47 | Step 1000/1562] MLM Loss: 2.5379
+[Epoch 47 | Step 1100/1562] MLM Loss: 2.3580
+[Epoch 47 | Step 1200/1562] MLM Loss: 2.6317
+[Epoch 47 | Step 1300/1562] MLM Loss: 2.2694
+[Epoch 47 | Step 1400/1562] MLM Loss: 2.7387
+[Epoch 47 | Step 1500/1562] MLM Loss: 2.5367
+Epoch 47 완료, 평균 MLM Loss: 2.5474
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch47.pt
+[Epoch 48 | Step 100/1562] MLM Loss: 2.6765
+[Epoch 48 | Step 200/1562] MLM Loss: 2.4786
+[Epoch 48 | Step 300/1562] MLM Loss: 2.3679
+[Epoch 48 | Step 400/1562] MLM Loss: 2.6521
+[Epoch 48 | Step 500/1562] MLM Loss: 2.3638
+[Epoch 48 | Step 600/1562] MLM Loss: 2.2803
+[Epoch 48 | Step 700/1562] MLM Loss: 2.6069
+[Epoch 48 | Step 800/1562] MLM Loss: 2.7707
+[Epoch 48 | Step 900/1562] MLM Loss: 2.6364
+[Epoch 48 | Step 1000/1562] MLM Loss: 2.4737
+[Epoch 48 | Step 1100/1562] MLM Loss: 2.4887
+[Epoch 48 | Step 1200/1562] MLM Loss: 2.5529
+[Epoch 48 | Step 1300/1562] MLM Loss: 2.4537
+[Epoch 48 | Step 1400/1562] MLM Loss: 2.7191
+[Epoch 48 | Step 1500/1562] MLM Loss: 2.6276
+Epoch 48 완료, 평균 MLM Loss: 2.5409
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch48.pt
+[Epoch 49 | Step 100/1562] MLM Loss: 2.4246
+[Epoch 49 | Step 200/1562] MLM Loss: 2.5208
+[Epoch 49 | Step 300/1562] MLM Loss: 2.5282
+[Epoch 49 | Step 400/1562] MLM Loss: 2.6156
+[Epoch 49 | Step 500/1562] MLM Loss: 2.3241
+[Epoch 49 | Step 600/1562] MLM Loss: 2.6540
+[Epoch 49 | Step 700/1562] MLM Loss: 2.5183
+[Epoch 49 | Step 800/1562] MLM Loss: 2.2698
+[Epoch 49 | Step 900/1562] MLM Loss: 2.7232
+[Epoch 49 | Step 1000/1562] MLM Loss: 2.4460
+[Epoch 49 | Step 1100/1562] MLM Loss: 2.3091
+[Epoch 49 | Step 1200/1562] MLM Loss: 2.4953
+[Epoch 49 | Step 1300/1562] MLM Loss: 2.7011
+[Epoch 49 | Step 1400/1562] MLM Loss: 2.5405
+[Epoch 49 | Step 1500/1562] MLM Loss: 2.6312
+Epoch 49 완료, 평균 MLM Loss: 2.5434
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch49.pt
+[Epoch 50 | Step 100/1562] MLM Loss: 2.6287
+[Epoch 50 | Step 200/1562] MLM Loss: 2.6665
+[Epoch 50 | Step 300/1562] MLM Loss: 2.5060
+[Epoch 50 | Step 400/1562] MLM Loss: 2.4151
+[Epoch 50 | Step 500/1562] MLM Loss: 2.2729
+[Epoch 50 | Step 600/1562] MLM Loss: 2.9857
+[Epoch 50 | Step 700/1562] MLM Loss: 2.3545
+[Epoch 50 | Step 800/1562] MLM Loss: 1.9270
+[Epoch 50 | Step 900/1562] MLM Loss: 2.5376
+[Epoch 50 | Step 1000/1562] MLM Loss: 2.2665
+[Epoch 50 | Step 1100/1562] MLM Loss: 2.1410
+[Epoch 50 | Step 1200/1562] MLM Loss: 2.4537
+[Epoch 50 | Step 1300/1562] MLM Loss: 2.6577
+[Epoch 50 | Step 1400/1562] MLM Loss: 2.9435
+[Epoch 50 | Step 1500/1562] MLM Loss: 2.5449
+Epoch 50 완료, 평균 MLM Loss: 2.5345
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch50.pt
+[Epoch 51 | Step 100/1562] MLM Loss: 2.8183
+[Epoch 51 | Step 200/1562] MLM Loss: 2.6744
+[Epoch 51 | Step 300/1562] MLM Loss: 2.2074
+[Epoch 51 | Step 400/1562] MLM Loss: 2.3894
+[Epoch 51 | Step 500/1562] MLM Loss: 2.7170
+[Epoch 51 | Step 600/1562] MLM Loss: 2.6431
+[Epoch 51 | Step 700/1562] MLM Loss: 2.7696
+[Epoch 51 | Step 800/1562] MLM Loss: 2.4541
+[Epoch 51 | Step 900/1562] MLM Loss: 2.8236
+[Epoch 51 | Step 1000/1562] MLM Loss: 2.6546
+[Epoch 51 | Step 1100/1562] MLM Loss: 2.3273
+[Epoch 51 | Step 1200/1562] MLM Loss: 2.5696
+[Epoch 51 | Step 1300/1562] MLM Loss: 2.8105
+[Epoch 51 | Step 1400/1562] MLM Loss: 2.4719
+[Epoch 51 | Step 1500/1562] MLM Loss: 2.3801
+Epoch 51 완료, 평균 MLM Loss: 2.5329
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch51.pt
+[Epoch 52 | Step 100/1562] MLM Loss: 2.1848
+[Epoch 52 | Step 200/1562] MLM Loss: 2.4629
+[Epoch 52 | Step 300/1562] MLM Loss: 2.5512
+[Epoch 52 | Step 400/1562] MLM Loss: 2.5798
+[Epoch 52 | Step 500/1562] MLM Loss: 2.3407
+[Epoch 52 | Step 600/1562] MLM Loss: 2.6192
+[Epoch 52 | Step 700/1562] MLM Loss: 2.6540
+[Epoch 52 | Step 800/1562] MLM Loss: 2.1830
+[Epoch 52 | Step 900/1562] MLM Loss: 2.5514
+[Epoch 52 | Step 1000/1562] MLM Loss: 2.4715
+[Epoch 52 | Step 1100/1562] MLM Loss: 2.6569
+[Epoch 52 | Step 1200/1562] MLM Loss: 2.6308
+[Epoch 52 | Step 1300/1562] MLM Loss: 2.5785
+[Epoch 52 | Step 1400/1562] MLM Loss: 2.6927
+[Epoch 52 | Step 1500/1562] MLM Loss: 2.3277
+Epoch 52 완료, 평균 MLM Loss: 2.5271
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch52.pt
+[Epoch 53 | Step 100/1562] MLM Loss: 2.7738
+[Epoch 53 | Step 200/1562] MLM Loss: 2.5507
+[Epoch 53 | Step 300/1562] MLM Loss: 2.2534
+[Epoch 53 | Step 400/1562] MLM Loss: 2.8720
+[Epoch 53 | Step 500/1562] MLM Loss: 2.1071
+[Epoch 53 | Step 600/1562] MLM Loss: 2.3995
+[Epoch 53 | Step 700/1562] MLM Loss: 2.2863
+[Epoch 53 | Step 800/1562] MLM Loss: 2.4403
+[Epoch 53 | Step 900/1562] MLM Loss: 2.4339
+[Epoch 53 | Step 1000/1562] MLM Loss: 2.5965
+[Epoch 53 | Step 1100/1562] MLM Loss: 2.4046
+[Epoch 53 | Step 1200/1562] MLM Loss: 2.5773
+[Epoch 53 | Step 1300/1562] MLM Loss: 2.4103
+[Epoch 53 | Step 1400/1562] MLM Loss: 2.5524
+[Epoch 53 | Step 1500/1562] MLM Loss: 2.8469
+Epoch 53 완료, 평균 MLM Loss: 2.5234
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch53.pt
+[Epoch 54 | Step 100/1562] MLM Loss: 2.3584
+[Epoch 54 | Step 200/1562] MLM Loss: 2.5700
+[Epoch 54 | Step 300/1562] MLM Loss: 2.4010
+[Epoch 54 | Step 400/1562] MLM Loss: 2.5057
+[Epoch 54 | Step 500/1562] MLM Loss: 2.6742
+[Epoch 54 | Step 600/1562] MLM Loss: 2.5552
+[Epoch 54 | Step 700/1562] MLM Loss: 2.5944
+[Epoch 54 | Step 800/1562] MLM Loss: 2.2728
+[Epoch 54 | Step 900/1562] MLM Loss: 2.4017
+[Epoch 54 | Step 1000/1562] MLM Loss: 2.2994
+[Epoch 54 | Step 1100/1562] MLM Loss: 2.4283
+[Epoch 54 | Step 1200/1562] MLM Loss: 2.6050
+[Epoch 54 | Step 1300/1562] MLM Loss: 2.3839
+[Epoch 54 | Step 1400/1562] MLM Loss: 2.6885
+[Epoch 54 | Step 1500/1562] MLM Loss: 2.4410
+Epoch 54 완료, 평균 MLM Loss: 2.5183
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch54.pt
+[Epoch 55 | Step 100/1562] MLM Loss: 2.6302
+[Epoch 55 | Step 200/1562] MLM Loss: 2.5385
+[Epoch 55 | Step 300/1562] MLM Loss: 2.8637
+[Epoch 55 | Step 400/1562] MLM Loss: 2.5408
+[Epoch 55 | Step 500/1562] MLM Loss: 2.2868
+[Epoch 55 | Step 600/1562] MLM Loss: 2.6716
+[Epoch 55 | Step 700/1562] MLM Loss: 2.5579
+[Epoch 55 | Step 800/1562] MLM Loss: 2.2068
+[Epoch 55 | Step 900/1562] MLM Loss: 2.4241
+[Epoch 55 | Step 1000/1562] MLM Loss: 2.3379
+[Epoch 55 | Step 1100/1562] MLM Loss: 2.3055
+[Epoch 55 | Step 1200/1562] MLM Loss: 2.4260
+[Epoch 55 | Step 1300/1562] MLM Loss: 2.8625
+[Epoch 55 | Step 1400/1562] MLM Loss: 2.1745
+[Epoch 55 | Step 1500/1562] MLM Loss: 2.5819
+Epoch 55 완료, 평균 MLM Loss: 2.5169
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch55.pt
+[Epoch 56 | Step 100/1562] MLM Loss: 2.8475
+[Epoch 56 | Step 200/1562] MLM Loss: 2.7448
+[Epoch 56 | Step 300/1562] MLM Loss: 2.5094
+[Epoch 56 | Step 400/1562] MLM Loss: 2.7476
+[Epoch 56 | Step 500/1562] MLM Loss: 2.2963
+[Epoch 56 | Step 600/1562] MLM Loss: 2.4251
+[Epoch 56 | Step 700/1562] MLM Loss: 2.5559
+[Epoch 56 | Step 800/1562] MLM Loss: 2.8448
+[Epoch 56 | Step 900/1562] MLM Loss: 2.3826
+[Epoch 56 | Step 1000/1562] MLM Loss: 2.5816
+[Epoch 56 | Step 1100/1562] MLM Loss: 2.6034
+[Epoch 56 | Step 1200/1562] MLM Loss: 2.6274
+[Epoch 56 | Step 1300/1562] MLM Loss: 2.3742
+[Epoch 56 | Step 1400/1562] MLM Loss: 2.3755
+[Epoch 56 | Step 1500/1562] MLM Loss: 2.4680
+Epoch 56 완료, 평균 MLM Loss: 2.5075
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch56.pt
+[Epoch 57 | Step 100/1562] MLM Loss: 2.6931
+[Epoch 57 | Step 200/1562] MLM Loss: 2.7145
+[Epoch 57 | Step 300/1562] MLM Loss: 2.7470
+[Epoch 57 | Step 400/1562] MLM Loss: 2.3343
+[Epoch 57 | Step 500/1562] MLM Loss: 2.4776
+[Epoch 57 | Step 600/1562] MLM Loss: 2.5987
+[Epoch 57 | Step 700/1562] MLM Loss: 2.7034
+[Epoch 57 | Step 800/1562] MLM Loss: 2.4186
+[Epoch 57 | Step 900/1562] MLM Loss: 2.4101
+[Epoch 57 | Step 1000/1562] MLM Loss: 2.3268
+[Epoch 57 | Step 1100/1562] MLM Loss: 2.6273
+[Epoch 57 | Step 1200/1562] MLM Loss: 2.6591
+[Epoch 57 | Step 1300/1562] MLM Loss: 2.4522
+[Epoch 57 | Step 1400/1562] MLM Loss: 2.2646
+[Epoch 57 | Step 1500/1562] MLM Loss: 2.4241
+Epoch 57 완료, 평균 MLM Loss: 2.5070
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch57.pt
+[Epoch 58 | Step 100/1562] MLM Loss: 2.2505
+[Epoch 58 | Step 200/1562] MLM Loss: 2.4835
+[Epoch 58 | Step 300/1562] MLM Loss: 2.6174
+[Epoch 58 | Step 400/1562] MLM Loss: 2.5025
+[Epoch 58 | Step 500/1562] MLM Loss: 2.2951
+[Epoch 58 | Step 600/1562] MLM Loss: 2.6284
+[Epoch 58 | Step 700/1562] MLM Loss: 2.4411
+[Epoch 58 | Step 800/1562] MLM Loss: 2.4562
+[Epoch 58 | Step 900/1562] MLM Loss: 2.6331
+[Epoch 58 | Step 1000/1562] MLM Loss: 2.3094
+[Epoch 58 | Step 1100/1562] MLM Loss: 2.7004
+[Epoch 58 | Step 1200/1562] MLM Loss: 2.6420
+[Epoch 58 | Step 1300/1562] MLM Loss: 2.7359
+[Epoch 58 | Step 1400/1562] MLM Loss: 2.3626
+[Epoch 58 | Step 1500/1562] MLM Loss: 2.4335
+Epoch 58 완료, 평균 MLM Loss: 2.4950
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch58.pt
+[Epoch 59 | Step 100/1562] MLM Loss: 2.6772
+[Epoch 59 | Step 200/1562] MLM Loss: 2.2609
+[Epoch 59 | Step 300/1562] MLM Loss: 2.6883
+[Epoch 59 | Step 400/1562] MLM Loss: 2.3940
+[Epoch 59 | Step 500/1562] MLM Loss: 2.4298
+[Epoch 59 | Step 600/1562] MLM Loss: 2.2127
+[Epoch 59 | Step 700/1562] MLM Loss: 2.6889
+[Epoch 59 | Step 800/1562] MLM Loss: 2.6779
+[Epoch 59 | Step 900/1562] MLM Loss: 2.3436
+[Epoch 59 | Step 1000/1562] MLM Loss: 2.3803
+[Epoch 59 | Step 1100/1562] MLM Loss: 2.5141
+[Epoch 59 | Step 1200/1562] MLM Loss: 2.3937
+[Epoch 59 | Step 1300/1562] MLM Loss: 2.6304
+[Epoch 59 | Step 1400/1562] MLM Loss: 2.3023
+[Epoch 59 | Step 1500/1562] MLM Loss: 2.5050
+Epoch 59 완료, 평균 MLM Loss: 2.4986
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch59.pt
+[Epoch 60 | Step 100/1562] MLM Loss: 2.3711
+[Epoch 60 | Step 200/1562] MLM Loss: 2.3355
+[Epoch 60 | Step 300/1562] MLM Loss: 2.4461
+[Epoch 60 | Step 400/1562] MLM Loss: 2.6705
+[Epoch 60 | Step 500/1562] MLM Loss: 2.1339
+[Epoch 60 | Step 600/1562] MLM Loss: 2.2936
+[Epoch 60 | Step 700/1562] MLM Loss: 2.4517
+[Epoch 60 | Step 800/1562] MLM Loss: 2.5237
+[Epoch 60 | Step 900/1562] MLM Loss: 2.7796
+[Epoch 60 | Step 1000/1562] MLM Loss: 2.4894
+[Epoch 60 | Step 1100/1562] MLM Loss: 2.6298
+[Epoch 60 | Step 1200/1562] MLM Loss: 2.5914
+[Epoch 60 | Step 1300/1562] MLM Loss: 2.5976
+[Epoch 60 | Step 1400/1562] MLM Loss: 2.4271
+[Epoch 60 | Step 1500/1562] MLM Loss: 2.7558
+Epoch 60 완료, 평균 MLM Loss: 2.4868
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch60.pt
+[Epoch 61 | Step 100/1562] MLM Loss: 2.7099
+[Epoch 61 | Step 200/1562] MLM Loss: 2.2612
+[Epoch 61 | Step 300/1562] MLM Loss: 2.7854
+[Epoch 61 | Step 400/1562] MLM Loss: 2.2074
+[Epoch 61 | Step 500/1562] MLM Loss: 2.2365
+[Epoch 61 | Step 600/1562] MLM Loss: 2.6096
+[Epoch 61 | Step 700/1562] MLM Loss: 2.2062
+[Epoch 61 | Step 800/1562] MLM Loss: 2.6716
+[Epoch 61 | Step 900/1562] MLM Loss: 2.7403
+[Epoch 61 | Step 1000/1562] MLM Loss: 2.3736
+[Epoch 61 | Step 1100/1562] MLM Loss: 2.4467
+[Epoch 61 | Step 1200/1562] MLM Loss: 2.5383
+[Epoch 61 | Step 1300/1562] MLM Loss: 2.2092
+[Epoch 61 | Step 1400/1562] MLM Loss: 2.6878
+[Epoch 61 | Step 1500/1562] MLM Loss: 2.4858
+Epoch 61 완료, 평균 MLM Loss: 2.4881
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch61.pt
+[Epoch 62 | Step 100/1562] MLM Loss: 2.2939
+[Epoch 62 | Step 200/1562] MLM Loss: 2.5687
+[Epoch 62 | Step 300/1562] MLM Loss: 2.4744
+[Epoch 62 | Step 400/1562] MLM Loss: 2.3307
+[Epoch 62 | Step 500/1562] MLM Loss: 2.5047
+[Epoch 62 | Step 600/1562] MLM Loss: 2.3652
+[Epoch 62 | Step 700/1562] MLM Loss: 2.3846
+[Epoch 62 | Step 800/1562] MLM Loss: 2.4118
+[Epoch 62 | Step 900/1562] MLM Loss: 2.3753
+[Epoch 62 | Step 1000/1562] MLM Loss: 2.0541
+[Epoch 62 | Step 1100/1562] MLM Loss: 2.7410
+[Epoch 62 | Step 1200/1562] MLM Loss: 2.6935
+[Epoch 62 | Step 1300/1562] MLM Loss: 2.3891
+[Epoch 62 | Step 1400/1562] MLM Loss: 2.4507
+[Epoch 62 | Step 1500/1562] MLM Loss: 2.4798
+Epoch 62 완료, 평균 MLM Loss: 2.4788
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch62.pt
+[Epoch 63 | Step 100/1562] MLM Loss: 2.5746
+[Epoch 63 | Step 200/1562] MLM Loss: 2.5144
+[Epoch 63 | Step 300/1562] MLM Loss: 2.2565
+[Epoch 63 | Step 400/1562] MLM Loss: 2.6431
+[Epoch 63 | Step 500/1562] MLM Loss: 2.3847
+[Epoch 63 | Step 600/1562] MLM Loss: 2.5685
+[Epoch 63 | Step 700/1562] MLM Loss: 2.3240
+[Epoch 63 | Step 800/1562] MLM Loss: 2.5273
+[Epoch 63 | Step 900/1562] MLM Loss: 2.4717
+[Epoch 63 | Step 1000/1562] MLM Loss: 2.5367
+[Epoch 63 | Step 1100/1562] MLM Loss: 2.4630
+[Epoch 63 | Step 1200/1562] MLM Loss: 2.6052
+[Epoch 63 | Step 1300/1562] MLM Loss: 2.4731
+[Epoch 63 | Step 1400/1562] MLM Loss: 2.3014
+[Epoch 63 | Step 1500/1562] MLM Loss: 2.4089
+Epoch 63 완료, 평균 MLM Loss: 2.4835
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch63.pt
+[Epoch 64 | Step 100/1562] MLM Loss: 2.3200
+[Epoch 64 | Step 200/1562] MLM Loss: 2.2597
+[Epoch 64 | Step 300/1562] MLM Loss: 2.5416
+[Epoch 64 | Step 400/1562] MLM Loss: 2.7424
+[Epoch 64 | Step 500/1562] MLM Loss: 2.5946
+[Epoch 64 | Step 600/1562] MLM Loss: 2.6803
+[Epoch 64 | Step 700/1562] MLM Loss: 2.4793
+[Epoch 64 | Step 800/1562] MLM Loss: 2.6624
+[Epoch 64 | Step 900/1562] MLM Loss: 2.1950
+[Epoch 64 | Step 1000/1562] MLM Loss: 2.2794
+[Epoch 64 | Step 1100/1562] MLM Loss: 2.2979
+[Epoch 64 | Step 1200/1562] MLM Loss: 2.3371
+[Epoch 64 | Step 1300/1562] MLM Loss: 2.2574
+[Epoch 64 | Step 1400/1562] MLM Loss: 2.1333
+[Epoch 64 | Step 1500/1562] MLM Loss: 2.4156
+Epoch 64 완료, 평균 MLM Loss: 2.4750
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch64.pt
+[Epoch 65 | Step 100/1562] MLM Loss: 2.7488
+[Epoch 65 | Step 200/1562] MLM Loss: 2.4227
+[Epoch 65 | Step 300/1562] MLM Loss: 2.4160
+[Epoch 65 | Step 400/1562] MLM Loss: 2.7183
+[Epoch 65 | Step 500/1562] MLM Loss: 2.3801
+[Epoch 65 | Step 600/1562] MLM Loss: 2.3100
+[Epoch 65 | Step 700/1562] MLM Loss: 2.4032
+[Epoch 65 | Step 800/1562] MLM Loss: 2.3970
+[Epoch 65 | Step 900/1562] MLM Loss: 2.4356
+[Epoch 65 | Step 1000/1562] MLM Loss: 2.6200
+[Epoch 65 | Step 1100/1562] MLM Loss: 2.2337
+[Epoch 65 | Step 1200/1562] MLM Loss: 2.6531
+[Epoch 65 | Step 1300/1562] MLM Loss: 2.4864
+[Epoch 65 | Step 1400/1562] MLM Loss: 2.0950
+[Epoch 65 | Step 1500/1562] MLM Loss: 2.5146
+Epoch 65 완료, 평균 MLM Loss: 2.4710
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch65.pt
+[Epoch 66 | Step 100/1562] MLM Loss: 2.1473
+[Epoch 66 | Step 200/1562] MLM Loss: 2.9981
+[Epoch 66 | Step 300/1562] MLM Loss: 2.3016
+[Epoch 66 | Step 400/1562] MLM Loss: 2.5367
+[Epoch 66 | Step 500/1562] MLM Loss: 2.2573
+[Epoch 66 | Step 600/1562] MLM Loss: 2.2620
+[Epoch 66 | Step 700/1562] MLM Loss: 2.5312
+[Epoch 66 | Step 800/1562] MLM Loss: 2.3430
+[Epoch 66 | Step 900/1562] MLM Loss: 2.6626
+[Epoch 66 | Step 1000/1562] MLM Loss: 2.4208
+[Epoch 66 | Step 1100/1562] MLM Loss: 2.5783
+[Epoch 66 | Step 1200/1562] MLM Loss: 2.4372
+[Epoch 66 | Step 1300/1562] MLM Loss: 2.7407
+[Epoch 66 | Step 1400/1562] MLM Loss: 2.5220
+[Epoch 66 | Step 1500/1562] MLM Loss: 2.7618
+Epoch 66 완료, 평균 MLM Loss: 2.4660
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch66.pt
+[Epoch 67 | Step 100/1562] MLM Loss: 2.5796
+[Epoch 67 | Step 200/1562] MLM Loss: 2.4610
+[Epoch 67 | Step 300/1562] MLM Loss: 2.5410
+[Epoch 67 | Step 400/1562] MLM Loss: 2.3761
+[Epoch 67 | Step 500/1562] MLM Loss: 2.2486
+[Epoch 67 | Step 600/1562] MLM Loss: 2.5084
+[Epoch 67 | Step 700/1562] MLM Loss: 2.2966
+[Epoch 67 | Step 800/1562] MLM Loss: 2.4841
+[Epoch 67 | Step 900/1562] MLM Loss: 2.3546
+[Epoch 67 | Step 1000/1562] MLM Loss: 2.4257
+[Epoch 67 | Step 1100/1562] MLM Loss: 2.7352
+[Epoch 67 | Step 1200/1562] MLM Loss: 2.3765
+[Epoch 67 | Step 1300/1562] MLM Loss: 2.7325
+[Epoch 67 | Step 1400/1562] MLM Loss: 2.1813
+[Epoch 67 | Step 1500/1562] MLM Loss: 2.2171
+Epoch 67 완료, 평균 MLM Loss: 2.4625
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch67.pt
+[Epoch 68 | Step 100/1562] MLM Loss: 2.3556
+[Epoch 68 | Step 200/1562] MLM Loss: 2.1927
+[Epoch 68 | Step 300/1562] MLM Loss: 2.5381
+[Epoch 68 | Step 400/1562] MLM Loss: 2.5338
+[Epoch 68 | Step 500/1562] MLM Loss: 2.4423
+[Epoch 68 | Step 600/1562] MLM Loss: 2.5253
+[Epoch 68 | Step 700/1562] MLM Loss: 2.5038
+[Epoch 68 | Step 800/1562] MLM Loss: 2.6242
+[Epoch 68 | Step 900/1562] MLM Loss: 2.3147
+[Epoch 68 | Step 1000/1562] MLM Loss: 2.6250
+[Epoch 68 | Step 1100/1562] MLM Loss: 2.5385
+[Epoch 68 | Step 1200/1562] MLM Loss: 2.3136
+[Epoch 68 | Step 1300/1562] MLM Loss: 2.8678
+[Epoch 68 | Step 1400/1562] MLM Loss: 2.6002
+[Epoch 68 | Step 1500/1562] MLM Loss: 2.3161
+Epoch 68 완료, 평균 MLM Loss: 2.4614
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch68.pt
+[Epoch 69 | Step 100/1562] MLM Loss: 2.4506
+[Epoch 69 | Step 200/1562] MLM Loss: 2.4190
+[Epoch 69 | Step 300/1562] MLM Loss: 2.3834
+[Epoch 69 | Step 400/1562] MLM Loss: 1.9657
+[Epoch 69 | Step 500/1562] MLM Loss: 2.4195
+[Epoch 69 | Step 600/1562] MLM Loss: 2.6062
+[Epoch 69 | Step 700/1562] MLM Loss: 2.6404
+[Epoch 69 | Step 800/1562] MLM Loss: 2.4087
+[Epoch 69 | Step 900/1562] MLM Loss: 2.2096
+[Epoch 69 | Step 1000/1562] MLM Loss: 2.4768
+[Epoch 69 | Step 1100/1562] MLM Loss: 2.0951
+[Epoch 69 | Step 1200/1562] MLM Loss: 2.3381
+[Epoch 69 | Step 1300/1562] MLM Loss: 2.3607
+[Epoch 69 | Step 1400/1562] MLM Loss: 2.2633
+[Epoch 69 | Step 1500/1562] MLM Loss: 2.5767
+Epoch 69 완료, 평균 MLM Loss: 2.4523
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch69.pt
+[Epoch 70 | Step 100/1562] MLM Loss: 2.5158
+[Epoch 70 | Step 200/1562] MLM Loss: 2.2948
+[Epoch 70 | Step 300/1562] MLM Loss: 2.3827
+[Epoch 70 | Step 400/1562] MLM Loss: 2.2936
+[Epoch 70 | Step 500/1562] MLM Loss: 2.7416
+[Epoch 70 | Step 600/1562] MLM Loss: 2.5079
+[Epoch 70 | Step 700/1562] MLM Loss: 2.4522
+[Epoch 70 | Step 800/1562] MLM Loss: 2.2950
+[Epoch 70 | Step 900/1562] MLM Loss: 2.6662
+[Epoch 70 | Step 1000/1562] MLM Loss: 2.5790
+[Epoch 70 | Step 1100/1562] MLM Loss: 2.2905
+[Epoch 70 | Step 1200/1562] MLM Loss: 2.1506
+[Epoch 70 | Step 1300/1562] MLM Loss: 2.6529
+[Epoch 70 | Step 1400/1562] MLM Loss: 2.2468
+[Epoch 70 | Step 1500/1562] MLM Loss: 2.2080
+Epoch 70 완료, 평균 MLM Loss: 2.4590
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch70.pt
+[Epoch 71 | Step 100/1562] MLM Loss: 2.3804
+[Epoch 71 | Step 200/1562] MLM Loss: 2.4253
+[Epoch 71 | Step 300/1562] MLM Loss: 2.7945
+[Epoch 71 | Step 400/1562] MLM Loss: 2.9793
+[Epoch 71 | Step 500/1562] MLM Loss: 2.5903
+[Epoch 71 | Step 600/1562] MLM Loss: 2.6485
+[Epoch 71 | Step 700/1562] MLM Loss: 2.3926
+[Epoch 71 | Step 800/1562] MLM Loss: 2.5184
+[Epoch 71 | Step 900/1562] MLM Loss: 2.2559
+[Epoch 71 | Step 1000/1562] MLM Loss: 2.3884
+[Epoch 71 | Step 1100/1562] MLM Loss: 2.4244
+[Epoch 71 | Step 1200/1562] MLM Loss: 2.3800
+[Epoch 71 | Step 1300/1562] MLM Loss: 2.6896
+[Epoch 71 | Step 1400/1562] MLM Loss: 2.4173
+[Epoch 71 | Step 1500/1562] MLM Loss: 2.5678
+Epoch 71 완료, 평균 MLM Loss: 2.4495
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch71.pt
+[Epoch 72 | Step 100/1562] MLM Loss: 2.2688
+[Epoch 72 | Step 200/1562] MLM Loss: 2.4796
+[Epoch 72 | Step 300/1562] MLM Loss: 2.5503
+[Epoch 72 | Step 400/1562] MLM Loss: 2.5567
+[Epoch 72 | Step 500/1562] MLM Loss: 2.6713
+[Epoch 72 | Step 600/1562] MLM Loss: 2.1491
+[Epoch 72 | Step 700/1562] MLM Loss: 2.3103
+[Epoch 72 | Step 800/1562] MLM Loss: 2.2878
+[Epoch 72 | Step 900/1562] MLM Loss: 2.4404
+[Epoch 72 | Step 1000/1562] MLM Loss: 2.4589
+[Epoch 72 | Step 1100/1562] MLM Loss: 2.3381
+[Epoch 72 | Step 1200/1562] MLM Loss: 2.3090
+[Epoch 72 | Step 1300/1562] MLM Loss: 2.6716
+[Epoch 72 | Step 1400/1562] MLM Loss: 2.5201
+[Epoch 72 | Step 1500/1562] MLM Loss: 2.6147
+Epoch 72 완료, 평균 MLM Loss: 2.4429
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch72.pt
+[Epoch 73 | Step 100/1562] MLM Loss: 2.5286
+[Epoch 73 | Step 200/1562] MLM Loss: 2.6527
+[Epoch 73 | Step 300/1562] MLM Loss: 2.6444
+[Epoch 73 | Step 400/1562] MLM Loss: 2.7203
+[Epoch 73 | Step 500/1562] MLM Loss: 2.5323
+[Epoch 73 | Step 600/1562] MLM Loss: 2.1678
+[Epoch 73 | Step 700/1562] MLM Loss: 2.4447
+[Epoch 73 | Step 800/1562] MLM Loss: 2.3956
+[Epoch 73 | Step 900/1562] MLM Loss: 2.4987
+[Epoch 73 | Step 1000/1562] MLM Loss: 2.2730
+[Epoch 73 | Step 1100/1562] MLM Loss: 2.3787
+[Epoch 73 | Step 1200/1562] MLM Loss: 2.6927
+[Epoch 73 | Step 1300/1562] MLM Loss: 2.4984
+[Epoch 73 | Step 1400/1562] MLM Loss: 2.4790
+[Epoch 73 | Step 1500/1562] MLM Loss: 2.2953
+Epoch 73 완료, 평균 MLM Loss: 2.4382
+모델 체크포인트 저장: ./tinybert_out/ckpts/pretrain_epoch73.pt
